@@ -1,0 +1,118 @@
+% Encoding: UTF-8
+
+@Article{1237507,
+  author =   {C. B. Paschal},
+  title =    {The need for effective biomedical imaging education},
+  journal =  {IEEE Engineering in Medicine and Biology Magazine},
+  year =     {2003},
+  volume =   {22},
+  number =   {4},
+  pages =    {88-91},
+  month =    {July},
+  doi =      {10.1109/MEMB.2003.1237507},
+  issn =     {0739-5175},
+  keywords = {biomedical education;biomedical imaging;computer aided instruction;information resources;BME students;Web based resources;anchored inquiry;anytime/anywhere learning;challenge-based learning;educational interaction;educational resources;effective biomedical imaging education;hands-on learning exercises;high-quality BMI education programs;human learning;imaging knowledge logical organization;instruction;instructional sequence;interesting challenges;learning cycle;learning resource;lectures;legacy cycle;online tutorial;personnel;revenue model;simulators;teaching files;textbooks;tutorials;ultrasound;undergraduate engineers;Biomedical engineering;Biomedical imaging;Computed tomography;Costs;Educational programs;Magnetic resonance imaging;Physics education;Positron emission tomography;Radiology;Ultrasonic imaging}
+}
+
+@InProceedings{7806405,
+  author =    {O. К. Alsova and O. V. Kazanskaya},
+  title =     {Training simulators for support of inductive method in teaching},
+  booktitle = {2016 13th International Scientific-Technical Conference on Actual Problems of Electronics Instrument Engineering (APEIE)},
+  year =      {2016},
+  volume =    {02},
+  pages =     {510-512},
+  month =     {Oct},
+  doi =       {10.1109/APEIE.2016.7806405},
+  keywords =  {computer aided instruction;further education;mathematics computing;teaching;higher education system;inductive method;inductive teaching;mathematical disciplines;optimization methods;simulation modeling;simulator basic structure;training simulators;Cloud computing;Computational modeling;Computers;Optimization;Problem-solving;Training;Inductive teaching;requirements to the training simulator;structure of the training simulator;training simulator}
+}
+
+@InProceedings{Framinan:2013:ANP:2536536.2536543,
+  author =    {Frami\~{n}\'{a}n, Andr{\'e}s and Ruisoto, Pablo and Garc\'{\i}a, Diana and Juanes, Juan A.},
+  title =     {Advanced Neuroimage Processing for the Study of the Neurovascular System},
+  booktitle = {Proceedings of the First International Conference on Technological Ecosystem for Enhancing Multiculturality},
+  year =      {2013},
+  series =    {TEEM '13},
+  pages =     {37--41},
+  address =   {New York, NY, USA},
+  publisher = {ACM},
+  acmid =     {2536543},
+  doi =       {10.1145/2536536.2536543},
+  isbn =      {978-1-4503-2345-1},
+  keywords =  {OsiriX\texttrademark, image processing, magnetic resonance, neuroimaging, neurovascular},
+  location =  {Salamanca, Spain},
+  numpages =  {5},
+  url =       {http://doi.acm.org/10.1145/2536536.2536543}
+}
+
+@InProceedings{Phophalia:2012:NDF:2425333.2425390,
+  author =    {Phophalia, Ashish and Mitra, Suman K. and Rajwade, Ajit},
+  title =     {A New Denoising Filter for Brain MR Images},
+  booktitle = {Proceedings of the Eighth Indian Conference on Computer Vision, Graphics and Image Processing},
+  year =      {2012},
+  series =    {ICVGIP '12},
+  pages =     {57:1--57:8},
+  address =   {New York, NY, USA},
+  publisher = {ACM},
+  acmid =     {2425390},
+  articleno = {57},
+  doi =       {10.1145/2425333.2425390},
+  isbn =      {978-1-4503-1660-6},
+  keywords =  {image denoising, magnetic resonance imaging (MRI), rough set theory},
+  location =  {Mumbai, India},
+  numpages =  {8},
+  url =       {http://doi.acm.org/10.1145/2425333.2425390}
+}
+
+@InProceedings{Siegmund:2012:TMP:2393596.2393624,
+  author =    {Siegmund, Janet and Brechmann, Andr{\'e} and Apel, Sven and K\"{a}stner, Christian and Liebig, J\"{o}rg and Leich, Thomas and Saake, Gunter},
+  title =     {Toward Measuring Program Comprehension with Functional Magnetic Resonance Imaging},
+  booktitle = {Proceedings of the ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering},
+  year =      {2012},
+  series =    {FSE '12},
+  pages =     {24:1--24:4},
+  address =   {New York, NY, USA},
+  publisher = {ACM},
+  acmid =     {2393624},
+  articleno = {24},
+  doi =       {10.1145/2393596.2393624},
+  isbn =      {978-1-4503-1614-9},
+  keywords =  {controlled experiments, fMRI, program comprehension},
+  location =  {Cary, North Carolina},
+  numpages =  {4},
+  url =       {http://doi.acm.org/10.1145/2393596.2393624}
+}
+
+@InProceedings{Siegmund:2014:UUS:2568225.2568252,
+  author =    {Siegmund, Janet and K\"{a}stner, Christian and Apel, Sven and Parnin, Chris and Bethmann, Anja and Leich, Thomas and Saake, Gunter and Brechmann, Andr{\'e}},
+  title =     {Understanding Understanding Source Code with Functional Magnetic Resonance Imaging},
+  booktitle = {Proceedings of the 36th International Conference on Software Engineering},
+  year =      {2014},
+  series =    {ICSE 2014},
+  pages =     {378--389},
+  address =   {New York, NY, USA},
+  publisher = {ACM},
+  acmid =     {2568252},
+  doi =       {10.1145/2568225.2568252},
+  isbn =      {978-1-4503-2756-5},
+  keywords =  {Functional magnetic resonance imaging, program comprehension},
+  location =  {Hyderabad, India},
+  numpages =  {12},
+  url =       {http://doi.acm.org/10.1145/2568225.2568252}
+}
+
+@InProceedings{vanderHeyden:1998:VPM:288216.288336,
+  author =    {van der Heyden, J. E. and Carpendale, M. S. T. and Inkpen, K. and Atkins, M. S.},
+  title =     {Visual Presentation of Magnetic Resonance Images},
+  booktitle = {Proceedings of the Conference on Visualization '98},
+  year =      {1998},
+  series =    {VIS '98},
+  pages =     {423--426},
+  address =   {Los Alamitos, CA, USA},
+  publisher = {IEEE Computer Society Press},
+  acmid =     {288336},
+  isbn =      {1-58113-106-2},
+  keywords =  {MRI image presentation, detail and context, health care, human factors, medical images, user interfaces},
+  location =  {Research Triangle Park, North Carolina, USA},
+  numpages =  {4},
+  url =       {http://dl.acm.org/citation.cfm?id=288216.288336}
+}

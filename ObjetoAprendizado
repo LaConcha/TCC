@@ -1,0 +1,119 @@
+% Encoding: UTF-8
+
+@Article{Baker2004,
+  author =   {Baker, Judy and Botts, Nathan and Owen, Karen},
+  title =    {Faculty technology training: learning objects},
+  journal =  {Academic Exchange Quarterly. 8.1 (Spring 2004): p170.},
+  year =     {2004},
+  volume =   {8},
+  number =   {1},
+  pages =    {170+},
+  month =    {2017/2/21/},
+  note =     {Article},
+  issn =     {10961453},
+  keywords = {College faculty},
+  url =      {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA116450607&asid=8fa908d57663058a0db6dd5791d21936}
+}
+
+@Article{Cohen2006,
+  author =  {Cohen, Eli B. and Nycz, Malgorzata},
+  title =   {Learning objects and e-learning: an informing science perspective},
+  journal = {Interdisciplinary Journal of Knowledge and Learning Objects},
+  year =    {2006},
+  volume =  {2},
+  pages =   {23+},
+  month =   {2017/2/21/},
+  note =    {23},
+  url =     {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA199195117&asid=274628d86b19a5f5fb2ffa070ccf2846}
+}
+
+@Article{Nash2005,
+  author =  {Nash, Susan Smith},
+  title =   {Learning objects, learning object repositories, and learning theory: preliminary best practices for online courses},
+  journal = {Interdisciplinary Journal of Knowledge and Learning Objects},
+  year =    {2005},
+  volume =  {1},
+  pages =   {217+},
+  month =   {2017/2/21/},
+  note =    {217},
+  url =     {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA199195113&asid=d82049005e85ec2901861948245ef1bc}
+}
+
+@Article{Queiros2016,
+  author =   {Queiros, Leandro Marques and da Silveira, Denis Silva and da Silva Correia-Neto, Jorge and Vilar, Guilherme @Article{Queiros2016, author = {Queiros, Leandro Marques and da Silveira, Denis Silva and da Silva Correia-Neto, Jorge and Vilar, Guilherme}, title = {LODPRO: learning objects development process}, journal = {Journal of the Brazilian Computer Society}, year = {2016}, volume = {22}, number = {1}, pages = {3}, abstract = {Research concerning to the use of technology in education has received increasing attention from scholars in recent years. This attention has resulted in new educational materials demanding creative ways to plan, develop, distribute, and evaluate them.}, doi = {10.1186/s13173-016-0043-6}, issn = {1678-4804}, url = {http://dx.doi.org/10.1186/s13173-016-0043-6} }},
+  title =    {LODPRO: learning objects development process},
+  journal =  {Journal of the Brazilian Computer Society},
+  year =     {2016},
+  volume =   {22},
+  number =   {1},
+  pages =    {3},
+  abstract = {Research concerning to the use of technology in education has received increasing attention from scholars in recent years. This attention has resulted in new educational materials demanding creative ways to plan, develop, distribute, and evaluate them.},
+  doi =      {10.1186/s13173-016-0043-6},
+  issn =     {1678-4804},
+  url =      {http://dx.doi.org/10.1186/s13173-016-0043-6}
+}
+
+@Article{Ritzhaupt2010,
+  author =   {Ritzhaupt, Albert D.},
+  title =    {Learning object systems and strategy: a description and discussion},
+  journal =  {Interdisciplinary Journal of E-Learning and Learning Objects},
+  year =     {2010},
+  volume =   {6},
+  pages =    {217+},
+  month =    {2017/2/21/},
+  note =     {217},
+  issn =     {15522210},
+  keywords = {Educational technology},
+  url =      {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA247740285&asid=97c7642b51f2dfbcc2c9fd98b1fff078}
+}
+
+@InProceedings{Sirkia:2012:EPM:2401796.2401799,
+  author =    {Sirki\"{a}, Teemu and Sorva, Juha},
+  title =     {Exploring Programming Misconceptions: An Analysis of Student Mistakes in Visual Program Simulation Exercises},
+  booktitle = {Proceedings of the 12th Koli Calling International Conference on Computing Education Research},
+  year =      {2012},
+  series =    {Koli Calling '12},
+  pages =     {19--28},
+  address =   {New York, NY, USA},
+  publisher = {ACM},
+  acmid =     {2401799},
+  doi =       {10.1145/2401796.2401799},
+  isbn =      {978-1-4503-1795-5},
+  keywords =  {CS1, introductory programming education, misconceptions, program visualization, visual program simulation},
+  location =  {Koli, Finland},
+  numpages =  {10},
+  url =       {http://doi.acm.org/10.1145/2401796.2401799}
+}
+
+@Article{Vinha:2005:RLO:1151954.1067617,
+  author =     {Vinha, Antonio},
+  title =      {Reusable Learning Objects: Theory to Practice},
+  journal =    {SIGCSE Bull.},
+  year =       {2005},
+  volume =     {37},
+  number =     {3},
+  pages =      {413--413},
+  month =      jun,
+  acmid =      {1067617},
+  address =    {New York, NY, USA},
+  doi =        {10.1145/1151954.1067617},
+  issn =       {0097-8418},
+  issue_date = {September 2005},
+  keywords =   {education, learning objects, learning process, learning technologies},
+  numpages =   {1},
+  publisher =  {ACM},
+  url =        {http://doi.acm.org/10.1145/1151954.1067617}
+}
+
+@Article{Yahya2008,
+  author =   {Yahya, Yazrina and Yusoff, Mohammed},
+  title =    {Towards a comprehensive learning object metadata: incorporation of context to stipulate meaningful learning and enhance learning object reusability},
+  journal =  {Interdisciplinary Journal of E-Learning and Learning Objects},
+  year =     {2008},
+  pages =    {13+},
+  month =    {2017/2/21/},
+  note =     {4},
+  issn =     {15522210},
+  keywords = {Educational technology},
+  url =      {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA204209805&asid=dfc48176f9b4f9234bb1177916dfd09d}
+}% Encoding: UTF-8

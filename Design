@@ -1,0 +1,101 @@
+% Encoding: UTF-8
+
+@Article{Baruque2004,
+  author =   {Baruque, Lucia Blondet and Melo, Rubens Nascimento},
+  title =    {Learning theory and instructional design using learning objects},
+  journal =  {Journal of Educational Multimedia and Hypermedia},
+  year =     {2004},
+  volume =   {13},
+  pages =    {343+},
+  month =    {2017/2/21/},
+  note =     {4},
+  issn =     {10558896},
+  keywords = {Curriculum development},
+  url =      {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA132304033&asid=779e5f268a3abe5e06c0b671d5102f23}
+}
+
+@InProceedings{Carney-Morris:2016:TLC:2974927.2974945,
+  author =    {Carney-Morris, Miranda and Murphy, Trevor},
+  title =     {Teaching, Learning, and Classroom Design},
+  booktitle = {Proceedings of the 2016 ACM on SIGUCCS Annual Conference},
+  year =      {2016},
+  series =    {SIGUCCS '16},
+  pages =     {15--18},
+  address =   {New York, NY, USA},
+  publisher = {ACM},
+  acmid =     {2974945},
+  doi =       {10.1145/2974927.2974945},
+  isbn =      {978-1-4503-4095-3},
+  keywords =  {classroom design, education, learning spaces},
+  location =  {Denver, Colorado, USA},
+  numpages =  {4},
+  url =       {http://doi.acm.org/10.1145/2974927.2974945}
+}
+
+@InProceedings{Fleissner:2009:HPS:1639950.1640069,
+  author =    {Fleissner, Sebastian and Baniassad, Elisa},
+  title =     {Harmony-oriented Programming and Software Evolution},
+  booktitle = {Proceedings of the 24th ACM SIGPLAN Conference Companion on Object Oriented Programming Systems Languages and Applications},
+  year =      {2009},
+  series =    {OOPSLA '09},
+  pages =     {991--998},
+  address =   {New York, NY, USA},
+  publisher = {ACM},
+  acmid =     {1640069},
+  doi =       {10.1145/1639950.1640069},
+  isbn =      {978-1-60558-768-4},
+  keywords =  {harmony, resonance},
+  location =  {Orlando, Florida, USA},
+  numpages =  {8},
+  url =       {http://doi.acm.org/10.1145/1639950.1640069}
+}
+
+@Article{Mason2005,
+  author =   {Mason, Robin and Pegler, Chris and Weller, Martin},
+  title =    {A learning object success story},
+  journal =  {Journal of Asynchronous Learning Networks},
+  year =     {2005},
+  volume =   {9},
+  pages =    {97+},
+  month =    {2017/2/21/},
+  note =     {1},
+  issn =     {19395256},
+  keywords = {Instructional materials},
+  url =      {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA284325480&asid=5ef69339f58d014ae1f799d7a4e284e5}
+}
+
+@InProceedings{Petrova:2004:MDS:1050330.1050430,
+  author =    {Petrova, Valentina and Todorova, Margarita},
+  title =     {A Model for Describing and Structuring Learning Objects},
+  booktitle = {Proceedings of the 5th International Conference on Computer Systems and Technologies},
+  year =      {2004},
+  series =    {CompSysTech '04},
+  pages =     {1--5},
+  address =   {New York, NY, USA},
+  publisher = {ACM},
+  acmid =     {1050430},
+  doi =       {10.1145/1050330.1050430},
+  isbn =      {954-9641-38-4},
+  keywords =  {content package, learning object, learning support},
+  location =  {Rousse, Bulgaria},
+  numpages =  {5},
+  url =       {http://doi.acm.org/10.1145/1050330.1050430}
+}
+
+@InProceedings{Sathiyamurthy:2012:ATD:2345396.2345587,
+  author =    {Sathiyamurthy, K. and Geetha, T. V. and Senthilvelan, M.},
+  title =     {An Approach Towards Dynamic Assembling of Learning Objects},
+  booktitle = {Proceedings of the International Conference on Advances in Computing, Communications and Informatics},
+  year =      {2012},
+  series =    {ICACCI '12},
+  pages =     {1193--1198},
+  address =   {New York, NY, USA},
+  publisher = {ACM},
+  acmid =     {2345587},
+  doi =       {10.1145/2345396.2345587},
+  isbn =      {978-1-4503-1196-0},
+  keywords =  {eLearning, granularity, learning object metadata (LOM), learning object repository (LOR), learning objects (LO), ontology, pedagogy},
+  location =  {Chennai, India},
+  numpages =  {6},
+  url =       {http://doi.acm.org/10.1145/2345396.2345587}
+}
