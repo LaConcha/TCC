@@ -6,7 +6,7 @@
 
 \documentclass[12pt,openright,oneside,a4paper,english,french,spanish,brazil]{unifil}
 
-\titulo{Objeto de Aprendizado - Simulador MRI e CT %Atualizar conforme progredir%}
+\titulo{Objeto de Aprendizado - Simulador MRI e CT} %Atualizar conforme progredir%
 \autor{Rodrigo de Souza Castoldi}
 \instituicao{Centro Universitário Filadélfia}
 \local{Londrina}
@@ -112,8 +112,8 @@ Agradeço ao Professor Ricardo novamente, pela ajuda e auxílio durante todo o T
 \begin{epigrafe}
 \vspace*{\fill}
 \begin{flushright}
-\textit{"Just like you i wanted a way out..." \\
-(Elliot Alderson)}
+\textit{"R.I.P 2 My Youth" \\
+(Jesse Ruthford)}
 \end{flushright}
 \end{epigrafe}
 
@@ -125,7 +125,7 @@ Agradeço ao Professor Ricardo novamente, pela ajuda e auxílio durante todo o T
 	%%Escreva seu resumo na língua vernácula aqui%%
 Este artigo discute o uso e desenvolvimento de objetos de aprendizado, propondo o desenvolvimento de simuladores para a área de Radiologia, dos quais seram usados para treinamento do uso e configuração de máquinas de MRI e CT por alunos do curso de Radiologia, Biomedicina e Física Médica.Tais simuladores são classificados como Objeto de Aprendizado, sendo fontes de conhecimento de fácil acesso e baixo custo tanto para instituições de ensino quanto para seus alunos.
 \\ %Divisão das alternativas de resumo%
-Este artigo discute o uso e desenvolvimento de Objetos de Aprendizado e propõem o desenvolvimento de simuladores que sigam os padrões de Objetos de Aprendizado para que sejam utilizados no treinamento de operadores de Resonância Magnética ou Tomografia Computadorizada de maneira ágil e fácil sem a necessidade da obtenção de máquinas físicas por parte das instituições de ensino.Também descreve  os benefícios e impactos que a aplicação de um Objeto de Aprendizado traz para o ambiente onde é aplicado, bem como a crescente deste tipo de ferramenta que é cada vez mais presente no aprendizado.
+Este artigo discute o uso e desenvolvimento de Objetos de Aprendizado e propõem o desenvolvimento de simuladores que sigam os padrões de Objetos de Aprendizado para que sejam utilizados no treinamento de operadores de Ressonância Magnética ou Tomografia Computadorizada de maneira ágil e fácil sem a necessidade da obtenção de máquinas físicas por parte das instituições de ensino. Também descreve os benefícios e impactos que a aplicação de um Objeto de Aprendizado traz para o ambiente onde é aplicado, bem como a crescente deste tipo de ferramenta que é cada vez mais presente no aprendizado.
 \vspace{\onelineskip} \\
 	%%Adicione as palavras chaves após os dois pontos '':''%%
 \noindent
@@ -140,10 +140,10 @@ Este artigo discute o uso e desenvolvimento de Objetos de Aprendizado e propõem
 \begin{resumo}[Abstract]
 \begin{otherlanguage*}{english}
 	%%Write your abstract in foreign language here%%
+This paper discuss the use and development of Learning Objects and suggests the development of simulators that follows the Learning Objects patterns to be used for MRI or CT operators training on an easy and agile way, replacing the need of real machines by universities and educating institutions. The paper also describes the benefits and impacts caused by the application of a Learning Object into a learning space, also, the growing use of this kind of learning tool.
 \emph{
-Extended abstract in English or another foreign language. 30 lines, simple spacing.
 }
-\vspace{\onelineskip}
+\vspace{\onelineskip}\\
 \noindent
 	%%Add the keywords after the colon '':''%%
 \emph{	
@@ -182,7 +182,10 @@ Extended abstract in English or another foreign language. 30 lines, simple spaci
 \chapter{Introdução}
 
 %Funcionalidade da Radiologia em geral%
-A Radiologia tem como papel atívo preparar e operar máquinas de diagnóstico por imagem(neste papel, Resonância Magnética e Tomografia Computadorizada), das quais são essênciais na atualidadwe para detecção de doenças e entendimento da anatômia humana.Também é útilizada em outras áreas, como industrial e engenharia
+A Radiologia tem como papel atívo preparar e operar máquinas de diagnóstico por imagem(neste papel, Resonância Magnética e Tomografia Computadorizada), das quais são essênciais na atualidade para detecção de doenças e estudo da anatômia humana.Mas a radiologia também é presente em diversas outras áreas, sejam elas educacionais ou comerciais, como ciências biológicas, medicina tanto quanto em orgãos fiscalizadores, onde são utilizadas máquinas para detecção de objetos, bem como para testes e estudos como no artigo "Understanding Understanding Source Code with Functional Magnetic Resonance Imaging"[2], onde foi usado MRI para analísar o comportamento do cerebro durante a leitura de códigos fontes executados por programadores.
+Contudo, a preparação de técnicos de radiologia não é tão simples, pois a mesma requer acesso à maquinas, quando a maior parte das instituições de ensino não possuem tais, então é necessário fazer emprestimos ou usar de hospitais, processo que pode ser custoso e demorado.
+
+//para isso um técnico deve estar responsável na operação dessas máquinas.
 
 %Resumo de Objeto de aprendizado%
 Objeto de Aprendizado é toda e qualquer ferramenta designada para auxílio do ensino e aprendizado ou de acordo com o IEEE, Objetos de Aprendizados são definidos como "Qualquer entidade, digital ou não digital, que podem ser usadas para aprendizado, educação ou treinamento."[1] e apesar do termo existir a mais de 50 anos, tais ferramentas estão em ascensão, na tentativa de aplicar o aprendizado personalizado com a tecnologia adaptável dos Objetos de Aprendizado. %Diferencial da proposta%
