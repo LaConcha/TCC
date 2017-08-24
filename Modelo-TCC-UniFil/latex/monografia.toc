@@ -4,7 +4,7 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{9}{chapter.1}
-\contentsline {section}{\numberline {1.1}Revis\IeC {\~a}o bib\IeC {\'\i }ografica}{9}{section.1.1}
+\contentsline {section}{\numberline {1.1}Revis\IeC {\~a}o bibl\IeC {\'\i }ografica}{9}{section.1.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Motiva\IeC {\c c}\IeC {\~a}o e Idealiza\IeC {\c c}\IeC {\~a}o}}{10}{chapter.2}
 \contentsline {subsection}{\numberline {2.0.1}Ih rapaz}{10}{subsection.2.0.1}

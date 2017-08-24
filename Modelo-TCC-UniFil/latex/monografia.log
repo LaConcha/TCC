@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  22 AUG 2017 18:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  24 AUG 2017 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1941,22 +1941,25 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 
 ] (./monografia.toc) [8
 
-] [9
+]
+
+LaTeX Warning: Citation `Buneman2011' on page 9 undefined on input line 187.
+
+[9
 
 ]
-LaTeX Font Info:    Try loading font information for T1+CMR on input line 202.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmr.fd
+LaTeX Font Info:    Try loading font information for T1+CMR on input line 203.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmr.fd
 File: t1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/CMR/B/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 202.
+(Font)              using `T1/cmr/m/n' instead on input line 203.
 
 [10
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 225.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 226.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
@@ -1964,64 +1967,64 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 269.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 270.
 
 [12
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 333--342
+Underfull \hbox (badness 10000) in paragraph at lines 334--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 358--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
@@ -2032,7 +2035,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 369.
+(hyperref)                removing `\uppercase' on input line 370.
 
 bibitemlist
 [16
@@ -2042,27 +2045,30 @@ bibitemlist
 \tf@toc=\write7
 \openout7 = `monografia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 386.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 386.
  (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 386.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 386.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 99A08E10316B9E2865123A54D9BE18A1;43.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 385.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 386.
  ) 
 Here is how much of TeX's memory you used:
- 32787 strings out of 492990
- 573179 string characters out of 6132622
- 790776 words of memory out of 5000000
- 35686 multiletter control sequences out of 15000+600000
+ 32788 strings out of 492990
+ 573196 string characters out of 6132622
+ 791776 words of memory out of 5000000
+ 35687 multiletter control sequences out of 15000+600000
  42829 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,85p,1924b,1206s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2083,10 +2089,10 @@ st/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2017/texmf-dist
 type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/hel
 vetic/uhvro8a.pfb>
-Output written on monografia.pdf (17 pages, 187799 bytes).
+Output written on monografia.pdf (17 pages, 188313 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 291 compressed objects within 3 object streams
+ 330 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
  88 named destinations out of 1000 (max. 500000)
  202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
