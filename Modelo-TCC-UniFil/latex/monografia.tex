@@ -6,7 +6,9 @@
 
 \documentclass[12pt,openright,oneside,a4paper,english,french,spanish,brazil]{unifil}
 
-\titulo{Objeto de Aprendizado - Simulador MRI e CT} %Atualizar conforme progredir%
+\usepackage{abntex2cite}
+
+\titulo{Objeto de Aprendizado - Simulador MRI} %Atualizar conforme progredir%
 \autor{Rodrigo de Souza Castoldi}
 \instituicao{Centro Universitário Filadélfia}
 \local{Londrina}
@@ -123,8 +125,9 @@ Agradeço ao Professor Ricardo novamente, pela ajuda e auxílio durante todo o T
 \par
 \begin{resumo}
 	%%Escreva seu resumo na língua vernácula aqui%%
-Este artigo discute o uso e desenvolvimento de objetos de aprendizado, propondo o desenvolvimento de simuladores para a área de Radiologia, dos quais seram usados para treinamento do uso e configuração de máquinas de MRI e CT por alunos do curso de Radiologia, Biomedicina e Física Médica.Tais simuladores são classificados como Objeto de Aprendizado, sendo fontes de conhecimento de fácil acesso e baixo custo tanto para instituições de ensino quanto para seus alunos.
-\\ %Divisão das alternativas de resumo%
+%Este artigo discute o uso e desenvolvimento de objetos de aprendizado, propondo o desenvolvimento de simuladores para a área de Radiologia, dos quais seram usados para treinamento do uso e configuração de máquinas de MRI e CT por alunos do curso de Radiologia, Biomedicina e Física Médica.Tais simuladores são classificados como Objeto de Aprendizado, sendo fontes de conhecimento de fácil acesso e baixo custo tanto para instituições de ensino quanto para seus alunos.%
+
+%Divisão das alternativas de resumo%
 Este artigo discute o uso e desenvolvimento de Objetos de Aprendizado e propõem o desenvolvimento de simuladores que sigam os padrões de Objetos de Aprendizado para que sejam utilizados no treinamento de operadores de Ressonância Magnética ou Tomografia Computadorizada de maneira ágil e fácil sem a necessidade da obtenção de máquinas físicas por parte das instituições de ensino. Também descreve os benefícios e impactos que a aplicação de um Objeto de Aprendizado traz para o ambiente onde é aplicado, bem como a crescente deste tipo de ferramenta que é cada vez mais presente no aprendizado.
 \vspace{\onelineskip} \\
 	%%Adicione as palavras chaves após os dois pontos '':''%%
@@ -182,20 +185,16 @@ This paper discuss the use and development of Learning Objects and suggests the 
 \chapter{Introdução}
 
 %Funcionalidade da Radiologia em geral%
-A Radiologia tem como papel atívo preparar e operar máquinas de diagnóstico por imagem(neste papel, Resonância Magnética e Tomografia Computadorizada), das quais são essênciais na atualidade para detecção de doenças e estudo da anatômia humana. O MRI é um teste feito a base de campo magnético criado por um imã extremamente forte e pulsos de energia de ondas radiologicas que formam imagens que, na maioria dos casos, provê informações diferentes informações e que não podem ser vistas por outros métodos de diagnóstico, o procedimento não envolve dores e radiação.
-
-Mas a radiologia também é presente em diversas outras áreas, sejam elas educacionais ou comerciais, como ciências biológicas, medicina tanto quanto em orgãos fiscalizadores, onde são utilizadas máquinas para detecção de objetos, bem como para testes e estudos como no artigo \citeonline{Buneman2011}, onde foi usado MRI para analísar o comportamento do cerebro durante a leitura de códigos fontes executados por programadores.
-Contudo, a preparação de técnicos de radiologia não é tão simples, pois a mesma requer acesso à maquinas, quando a maior parte das instituições de ensino não possuem tais, então é necessário fazer emprestimos ou usar de hospitais, processo que pode ser custoso e demorado, o resultado completo de um exame pode levar até 2 dias.
-
+A Radiologia tem como papel atívo preparar e operar máquinas de diagnóstico por imagem(neste papel, Resonância Magnética), uma das ferramentas de diagnóstico mais sofisticadas e essênciais na atualidade para detecção de doenças e estudo da anatômia humana. O MRI é um teste medical feito a base de campo magnético criado por um imã extremamente forte e pulsos de energia de ondas radiologicas que formam imagens que, na maioria dos casos, provê informações diferentes informações e que não podem ser vistas por outros métodos de diagnóstico, o procedimento não envolve dores e radiação.Mas a radiologia também é presente em diversas outras áreas, sejam elas educacionais ou comerciais, como ciências biológicas, medicina tanto quanto em orgãos fiscalizadores, onde são utilizadas máquinas para detecção de objetos, bem como para testes e estudos como no artigo \citeyear{ABNTEX2:2014}, onde foi usado MRI para analísar o comportamento do cerebro durante a leitura de códigos fontes executados por programadores.Contudo, a preparação de técnicos de radiologia não é tão simples, pois a mesma requer acesso à maquinas, quando a maior parte das instituições de ensino não possuem tais, então é necessário fazer emprestimos ou usar de hospitais, processo que pode ser custoso e demorado, onde o exame leva entre 1 a 2 horas e o resultado completo de um exame pode levar até 2 dias.
 
 %Resumo de Objeto de aprendizado%
-Objeto de Aprendizado é toda e qualquer ferramenta designada para auxílio do ensino e aprendizado ou de acordo com o IEEE, Objetos de Aprendizados são definidos como "Qualquer entidade, digital ou não digital, que podem ser usadas para aprendizado, educação ou treinamento."[1] e apesar do termo existir a mais de 50 anos, tais ferramentas estão em ascensão, na tentativa de aplicar o aprendizado personalizado com a tecnologia adaptável dos Objetos de Aprendizado. %Diferencial da proposta%
+O termo Objeto de Aprendizado surgiu em 1994  num artigo escrito por Hodgins, no entanto, sua definição tem se desenvolvido em diversas maneiras, dependendo da sua fonte, alguns seguem o principio de que "Objeto de Aprendizado é toda e qualquer ferramenta designada para auxílio do ensino e aprendizado", outros vão de acordo com o IEEE, Objetos de Aprendizados são definidos como "Qualquer entidade, digital ou não digital, que podem ser usadas para aprendizado, educação ou treinamento."[1], ja a definição prática, foi escrita por McGreal em 2004, num artigo de 16 páginas [3], McGreal também escreveu as especificações de metadatas dos Objetos de Aprendizado. e apesar do termo existir a mais de 20 anos, tais ferramentas estão em ascensão, na tentativa de aplicar o aprendizado personalizado com a tecnologia adaptável dos Objetos de Aprendizado.Nosso objetivo, é desenvolver um simulador que se encaixe nos padrões de Objeto de Aprendizado, seguindo a analogia de "Átomo" para treinamento de técnicos em radíologia, apesar de ja existirem simuladores para esta área, os mesmos são rígidos e privados, sem a possibilidade de extrair informações a fundo ou aceitar modificações conforme a necessidade de cada usuário. Nosso programa deverá aceitar alterações, como adição de protocolos, implicação de variáveis, manipulação das imagens resultantes, bem como, deve ser autoinstrutivo, o usuário deve entender o funcionamento do programa sem dificuldades, terá a possibilidade de salvar e exportar seus experimentos e verificar as informações do processo.
 
 \section{Revisão biblíografica}%%Inserir seção (nível 2)
 
 %%Conteúdo
 
-\chapter{Motivação e Idealização}%%Inserir subseção (nível 3)
+\section{Motivação e Idealização}%%Inserir subseção (nível 3)
 
 %%Conteúdo
 Este papel é um side-effect gerado pelo projeto inicial da construção de um simulador de máquinas de resonância magnética, pedido realizado pela professora Juliana do curso de radiologia da UniFil. A instituição UniFil está no seu segundo ano do curso tecnólogo de radiologia e ainda não conta com máquinario para treinamento dos alunos.
@@ -369,14 +368,16 @@ $\int\limits_a^b$
 
 \begin{thebibliography}{99}
 
-\bibitem{ABNTEX2:2014}
-{ABNTEX2; ARAUJO, L. C. \textbf{A classe abntex2}: Documentos técnicos e científicos brasileiros compatíveis com as normas ABNT. Sine loco, v. 1.9.2; 2014.}.
+\bibitem{}
+{IEEE Learning Technology Standards Committee (LTSC) available
+at: IEEE 1484.12.1-2002, 15 July 2002, \textbf{Draft Standard for Learning
+Object Metadata.}}
 
-\bibitem{Biazin:2008}
-{BIAZIN, D. T. \textbf{Normas da ABNT e padronização de trabalhos acadêmicos}. Londrina: Instituto Filadélfia de Londrina; 2008.}
+\bibitem{Sathiamurthy:2012}
+{}
 
-\bibitem{Buneman2011}
-{BUNEMAN, P.; CHENEY, J.; LINDLEY, S. et al. \textbf{DBWiki}: A Structured Wiki for Curated Data and Collaborative Data Management. Athens: SIGMOD’11; 2011.}
+\bibitem{McGreal:2004}
+{MCGREAL, R. \textbf{Learning objects: A practical definition} International Journal of Instructional Technology and Distance Learning (IJITDL).2004/9/4}
 
 \bibitem{Wikibooks:2014}
 {WIKIBOOKS. \textbf{LaTeX}: The Free Textbook Project. Disponível em: <http://en.wikibooks.org/wiki/LaTeX>. Acesso em: 09 abr. 2014.}
