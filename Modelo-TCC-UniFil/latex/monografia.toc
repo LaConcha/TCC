@@ -4,22 +4,9 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{9}{chapter.1}
-\contentsline {section}{\numberline {1.1}Revis\IeC {\~a}o bibl\IeC {\'\i }ografica}{10}{section.1.1}
-\contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~a}o e Idealiza\IeC {\c c}\IeC {\~a}o}{10}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Ih rapaz}{10}{subsection.1.2.1}
-\contentsline {paragraph}{\numberline {1.2.1.0.1}Subsubsubse\IeC {\c c}\IeC {\~a}o}{10}{paragraph.1.2.1.0.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Elementos Textuais}}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Lista Numerada}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Lista com Marcadores}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}Figura}{12}{section.2.3}
-\contentsline {section}{\numberline {2.4}Paragrafa\IeC {\c c}\IeC {\~a}o}{12}{section.2.4}
-\contentsline {section}{\numberline {2.5}Nota de Rodap\IeC {\'e}}{12}{section.2.5}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Outros Elementos}}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}C\IeC {\'o}digo-Fonte}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Termos Matem\IeC {\'a}ticos}{13}{section.3.2}
-\contentsline {section}{\numberline {3.3}Gr\IeC {\'a}ficos Qu\IeC {\'\i }micos}{14}{section.3.3}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Revis\IeC {\~a}o bibl\IeC {\'\i }ografica}}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Motiva\IeC {\c c}\IeC {\~a}o e Idealiza\IeC {\c c}\IeC {\~a}o}{11}{section.2.1}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{16}{section*.11}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{12}{section*.11}

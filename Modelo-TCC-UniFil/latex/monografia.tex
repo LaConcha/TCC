@@ -188,177 +188,21 @@ This paper discuss the use and development of Learning Objects and suggests the 
 A Radiologia tem como papel atívo preparar e operar máquinas de diagnóstico por imagem(neste papel, Resonância Magnética), uma das ferramentas de diagnóstico mais sofisticadas e essênciais na atualidade para detecção de doenças e estudo da anatômia humana. O MRI é um teste medical feito a base de campo magnético criado por um imã extremamente forte e pulsos de energia de ondas radiologicas que formam imagens que, na maioria dos casos, provê informações diferentes informações e que não podem ser vistas por outros métodos de diagnóstico, o procedimento não envolve dores e radiação.Mas a radiologia também é presente em diversas outras áreas, sejam elas educacionais ou comerciais, como ciências biológicas, medicina tanto quanto em orgãos fiscalizadores, onde são utilizadas máquinas para detecção de objetos, bem como para testes e estudos como no artigo \citeyear{ABNTEX2:2014}, onde foi usado MRI para analísar o comportamento do cerebro durante a leitura de códigos fontes executados por programadores.Contudo, a preparação de técnicos de radiologia não é tão simples, pois a mesma requer acesso à maquinas, quando a maior parte das instituições de ensino não possuem tais, então é necessário fazer emprestimos ou usar de hospitais, processo que pode ser custoso e demorado, onde o exame leva entre 1 a 2 horas e o resultado completo de um exame pode levar até 2 dias.
 
 %Resumo de Objeto de aprendizado%
-O termo Objeto de Aprendizado surgiu em 1994  num artigo escrito por Hodgins, no entanto, sua definição tem se desenvolvido em diversas maneiras, dependendo da sua fonte, alguns seguem o principio de que "Objeto de Aprendizado é toda e qualquer ferramenta designada para auxílio do ensino e aprendizado", outros vão de acordo com o IEEE, Objetos de Aprendizados são definidos como "Qualquer entidade, digital ou não digital, que podem ser usadas para aprendizado, educação ou treinamento."[1], ja a definição prática, foi escrita por McGreal em 2004, num artigo de 16 páginas [3], McGreal também escreveu as especificações de metadatas dos Objetos de Aprendizado. e apesar do termo existir a mais de 20 anos, tais ferramentas estão em ascensão, na tentativa de aplicar o aprendizado personalizado com a tecnologia adaptável dos Objetos de Aprendizado.Nosso objetivo, é desenvolver um simulador que se encaixe nos padrões de Objeto de Aprendizado, seguindo a analogia de "Átomo" para treinamento de técnicos em radíologia, apesar de ja existirem simuladores para esta área, os mesmos são rígidos e privados, sem a possibilidade de extrair informações a fundo ou aceitar modificações conforme a necessidade de cada usuário. Nosso programa deverá aceitar alterações, como adição de protocolos, implicação de variáveis, manipulação das imagens resultantes, bem como, deve ser autoinstrutivo, o usuário deve entender o funcionamento do programa sem dificuldades, terá a possibilidade de salvar e exportar seus experimentos e verificar as informações do processo.
+O termo Objeto de Aprendizado surgiu em 1994  num artigo escrito por Hodgins, no entanto, sua definição tem se desenvolvido em diversas maneiras, dependendo da sua fonte, alguns seguem o principio de que "Objeto de Aprendizado é toda e qualquer ferramenta designada para auxílio do ensino e aprendizado", outros vão de acordo com o IEEE, Objetos de Aprendizados são definidos como "Qualquer entidade, digital ou não digital, que podem ser usadas para aprendizado, educação ou treinamento."[1], ja a definição prática, foi escrita por McGreal em 2004, num artigo de 16 páginas [3], McGreal também escreveu as especificações de metadatas dos Objetos de Aprendizado. e apesar do termo existir a mais de 20 anos, tais ferramentas estão em ascensão, na tentativa de aplicar o aprendizado personalizado com a tecnologia adaptável dos Objetos de Aprendizado e por serem artefatos digitais, objetos de aprendizado são muito próximos de softwares \citeyear{Braga:2012}. 	 	
+	Nosso objetivo, é desenvolver um simulador que se encaixe nos padrões de Objeto de Aprendizado, seguindo a analogia de "Átomo" para treinamento de técnicos em radíologia, apesar de ja existirem simuladores para esta área, os mesmos são rígidos e privados, sem a possibilidade de extrair informações a fundo ou aceitar modificações conforme a necessidade de cada usuário. Nosso programa deverá aceitar alterações, como adição de protocolos, implicação de variáveis, manipulação das imagens resultantes, bem como, deve ser autoinstrutivo, o usuário deve entender o funcionamento do programa sem dificuldades, terá a possibilidade de salvar e exportar seus experimentos e verificar as informações do processo.
 
-\section{Revisão biblíografica}%%Inserir seção (nível 2)
+\chapter{Revisão biblíografica}%%Inserir seção (nível 2)
 
 %%Conteúdo
+%definição%
+O desenvolvimento de objetos de aprendizado ainda é um tema recente e muito discutido, seus stakeholders  discutem e trabalham para que seja estabelecido uma definição funcional e um padrão de desenvolvimento dentre  as diversas variações existentes. O Instituto de Elétrica e Engenheiros Eletrônicos (IEEE)  define objetos de aprendizado como, "qualquer entidade, digital ou não-digital que pode ser usado, re-usado ou referenciado durante aprendizado apoiado por tecnologia" e explica que objetos de aprendizado permite e facilita o uso de conteúdo educacional online, mas essa definição tem inteção de abrangir todo conteúdo educacional não-digital, falhando em excluír materiais educacionais e qualquer outro artefato que tenha ligação ao aprendizado que se distinguem de objetos de aprendizado, dos quais não estão de acordo com as análogias de objetos de aprendizados descritas por David Wiley, que explica, a análogia de "Lego" é incompleta para descrever a estrutura e natureza do objeto de aprendizado.As propriedades dessa definição dizem que qualquer peça de Lego pode ser combinada com outra peça de qualquer forma escolhida e que Legos são simples e divertidos que até mesmo crianças podem combiná-los.(Wiley, 2000), Wiley acredita que um objeto de aprendizado com essas características é não mais eficiente que um Lego por si só.Então, Wiley apresenta-nos uma análogia mais completa e holística, o "Átomo", que são componentes que podem ser combinados com outros átomos de maior escala, mas nem todo átomo pode ser combinado com outro, átomos só podem ser combinados com estruturas ja prescritas e sua montagem requer um certo nível de conhecimento.Essa análogia preenche melhor a definição de objeto de aprendizado para fins pedagógicos.
+%Impacto no ambiente%
+
 
 \section{Motivação e Idealização}%%Inserir subseção (nível 3)
 
 %%Conteúdo
-Este papel é um side-effect gerado pelo projeto inicial da construção de um simulador de máquinas de resonância magnética, pedido realizado pela professora Juliana do curso de radiologia da UniFil. A instituição UniFil está no seu segundo ano do curso tecnólogo de radiologia e ainda não conta com máquinario para treinamento dos alunos.
-
-\subsection{Ih rapaz}%%Inserir subsubseção (nível 4)
-
-%%Conteúdo
-
-\subsubsubsection{Subsubsubseção}%%Inserir subsubsubseção (nível 5)
-
-%%Conteúdo
-
-\chapter{Elementos Textuais}
-
-\section{Lista Numerada}
-
-\begin{enumerate}
- \item Item 1;
- \item Item 2;
- \item Item 3;
- \item Item 4;
- \item Item 5...
-\end{enumerate}
-
-\section{Lista com Marcadores}
-
-\begin{itemize}
- \item Item A;
- \item Item B;
- \item Item C;
- \item Item D...
-\end{itemize}
-\cleardoublepage
-\section{Figura}
-
-\begin{figure}[htb]
-	\centering
-	%\includegraphics[scale=0.20]{heavy.jpeg} Insira o nome da imagem dentro das chaves%
-	\caption{``Respiração Forte''} 	
-\end{figure}
-
-\begin{table}[htb]
-\caption{Legenda para quadros e tabelas em cima}
-\begin{tabular}{|c|c|c|}
-\hline
-a1 & b1 & c1 \\ \hline
-a2 & b2 & c2 \\ \hline
-a3 & b3 & c3 \\ \hline
-a4 & b4 & c4 \\ \hline
-\end{tabular}
-\end{table}
-
-Para quadros, utilize a mesma estrutura de tabelas, só que altere a sua formatação.
-\begin{quadro}[htb]
-\caption{\label{quadro_modelo}Legenda do quadro}
-\begin{tabular}{ c c c }
-a1 & b1 & c1 \\ 
-a2 & b2 & c2 \\ 
-a3 & b3 & c3 \\ 
-a4 & b4 & c4 \\ 
-\end{tabular}
-\end{quadro}
-
-\section{Paragrafação}
-O primeiro parágrafo já é indentado. Para pular uma linha, deve-se colocar duas barras invertidas \textbackslash \textbackslash. \\
-\indent Para indentar um novo parágrafo, inicie-o com \textbackslash indent.\\
-\noindent Para iniciar um parágrafo sem indentação, é so utilizar \textbackslash noindent
-
-\section{Nota de Rodapé}
-Para utilizar a nota de rodapé, é só utilizar a marcação \textbackslash footnote na frente do seu texto. \footnote{Exemplo de nota de rodapé.} Ele numera automaticamente as notas. \footnote{Outra nota de rodapé.}
-
-\chapter{Outros Elementos}
-
-\section{Código-Fonte}
-%É possível alterar a linguagem do código utilizando \lstset{language=nomedalinguagem}
-\begin{lstlisting}
-/* Block
-    comment */
-public class Exemplo
-{
-
- public static void main(String args[])
- {
-    int i;
- 
-    // Line comment.
-    System.out.println("Hello world!");
- 
-    for (i = 0; i < 1; i++)
-    {
-        System.out.println("LaTeX is also great for programmers!");
-    }
- }
-}
-\end{lstlisting}
-
-\section{Termos Matemáticos}
-
-\begin{equation} 
-\label{eq:equacao} %Título da equacao
-5^2 - 5 = 20
-\end{equation}
-
-Descrição da equação \ref{eq:equacao}.
-
-\noindent $\forall x \in X, \quad \exists y \leq \epsilon$
-\\
-$\cos (2\theta) = \cos^2 \theta - \sin^2 \theta$
-\\
-$\lim_{x \to \infty} \exp(-x) = 0$
-\\
-$a \bmod b$
-\\
-$x \equiv a \pmod b$
-\\
-$f(n) = n^5 + 4n^2 + 2 |_{n=17}$
-\\
-$\frac{n!}{k!(n-k)!} = \binom{n}{k}$
-\\
-$\sum_{i=1}^{10} t_i$
-\\
-$\int\limits_a^b$
-
-\section{Gráficos Químicos}
-
-\chemfig{(-[:0,1.5,,,draw=none]\scriptstyle\color{red}0)
-(-[1]1)(-[:45,1.5,,,draw=none]\scriptstyle\color{red}45)
-(-[2]2)(-[:90,1.5,,,draw=none]\scriptstyle\color{red}90)
-(-[3]3)(-[:135,1.5,,,draw=none]\scriptstyle\color{red}135)
-(-[4]4)(-[:180,1.5,,,draw=none]\scriptstyle\color{red}180)
-(-[5]5)(-[:225,1.5,,,draw=none]\scriptstyle\color{red}225)
-(-[6]6)(-[:270,1.5,,,draw=none]\scriptstyle\color{red}270)
-(-[7]7)(-[:315,1.5,,,draw=none]\scriptstyle\color{red}315)
--0} \\
-
-\chemfig{A-B}\\
-\chemfig{A=B}\\
-\chemfig{A~B}\\
-\chemfig{A>B}\\
-\chemfig{A<B}\\
-\chemfig{A>:B}\\
-\chemfig{A<:B}\\
-\chemfig{A>|B}\\
-\chemfig{A<|B}\\
-
-\chemfig{C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H)} \\
-
-\chemfig{-[:30]-[:-30]-[:30]} \\
-
-\chemfig{-[:30]=[:-30]-[:30]} \\
-
-\chemfig{A*6(-B-C-D-E-F-)} \\
-
-\chemfig{A*5(-B-C-D-E-)} \\
-
-\chemfig{*6(=-=-=-)} \\ 
-
-\chemfig{**5(------)} \\
-
-\chemfig{-(-[1]O^{-})=[7]O} \\
-
-\chemfig{-(-[1]O^{\ominus})=[7]O} \\
-
-\chemfig{-\chemabove{N}{\scriptstyle\oplus}(=[1]O)-[7]O^{\ominus}}
+Este papel é um efeito-colateral gerado pelo projeto inicial da construção de um simulador de máquinas de resonância magnética, pedido realizado pela professora Juliana do curso de radiologia da UniFil. A instituição UniFil está no seu segundo ano do curso tecnólogo de radiologia e ainda não conta com máquinario para treinamento dos alunos.
 
 \cleardoublepage
 
@@ -379,8 +223,9 @@ Object Metadata.}}
 \bibitem{McGreal:2004}
 {MCGREAL, R. \textbf{Learning objects: A practical definition} International Journal of Instructional Technology and Distance Learning (IJITDL).2004/9/4}
 
-\bibitem{Wikibooks:2014}
-{WIKIBOOKS. \textbf{LaTeX}: The Free Textbook Project. Disponível em: <http://en.wikibooks.org/wiki/LaTeX>. Acesso em: 09 abr. 2014.}
+\bibitem{Braga:2012}
+{Braga J, Dotta S, Pimentel E, Stransky B (2012) Desafios para o
+Desenvolvimento de Objetos de Aprendizagem Reutilizáveis e de Qualidade. In: Anais do Workshop de Desafios da Computação Aplicada à Educação., pp 90-99. \textbf{}}
 
 \end{thebibliography}
 
