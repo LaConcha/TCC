@@ -6,7 +6,7 @@
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{9}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Revis\IeC {\~a}o bibl\IeC {\'\i }ografica}}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Motiva\IeC {\c c}\IeC {\~a}o e Idealiza\IeC {\c c}\IeC {\~a}o}{11}{section.2.1}
+\contentsline {section}{\numberline {2.1}Motiva\IeC {\c c}\IeC {\~a}o e Idealiza\IeC {\c c}\IeC {\~a}o}{12}{section.2.1}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{12}{section*.11}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{13}{section*.11}
