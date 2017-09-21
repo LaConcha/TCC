@@ -1,0 +1,25 @@
+\changetocdepth {4}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Cap\IeC {\'\i }tulo}}{9}{chapter.1}
+\contentsline {section}{\numberline {1.1}Se\IeC {\c c}\IeC {\~a}o}{9}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Subse\IeC {\c c}\IeC {\~a}o}{9}{subsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1.1}Subsubse\IeC {\c c}\IeC {\~a}o}{9}{subsubsection.1.1.1.1}
+\contentsline {paragraph}{\numberline {1.1.1.1.1}Subsubsubse\IeC {\c c}\IeC {\~a}o}{9}{paragraph.1.1.1.1.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Elementos Textuais}}{10}{chapter.2}
+\contentsline {section}{\numberline {2.1}Lista Numerada}{10}{section.2.1}
+\contentsline {section}{\numberline {2.2}Lista com Marcadores}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Figura}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}Paragrafa\IeC {\c c}\IeC {\~a}o}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}Nota de Rodap\IeC {\'e}}{11}{section.2.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Outros Elementos}}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}C\IeC {\'o}digo-Fonte}{12}{section.3.1}
+\contentsline {section}{\numberline {3.2}Termos Matem\IeC {\'a}ticos}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}Gr\IeC {\'a}ficos Qu\IeC {\'\i }micos}{13}{section.3.3}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{15}{section*.11}
