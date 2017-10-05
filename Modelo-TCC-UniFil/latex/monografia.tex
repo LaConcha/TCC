@@ -96,20 +96,17 @@
 %%
 Essa aqui vai pro ayrton senna, mito das corrida.
 \end{flushright}
-\end{epigrafe} %possivelmente mudar para dedicatoria no begin/end%
+\end{epigrafe} 
 
 %Agradecimentos (opcional)%
 
 \begin{agradecimentos}
 
-%%Insira seus agradecimentos
 Agradeço ao NPI pela oportunidade e espaço dado para o desenvolvimento desta pesquisa e projeto.
 Agradeço ao Professor Ricardo novamente, pela ajuda e auxílio durante todo o TCC.
 \end{agradecimentos}
 
 %Epígrafe (opcional)%
-
-%%Insira sua epígrafe entre as chaves do \textit{}
 
 \begin{epigrafe}
 \vspace*{\fill}
@@ -213,8 +210,8 @@ Mas o impacto dos objetos de aprendizado vai além da economia, o ambiente de es
 \item Adaptável - Objetos de aprendizado devem ser capazes de se adaptarem as necessidades do aprendiz, nomeado ''aprendizado prescritivo'' (Ritzhaupt:2010).
 \end{itemize}
 
-Nos ultimos anos, o interesse por visualização tridimensional de estruturas anatômicas esteve em constante crescimento e o desenvolvimento de ferramentas para estudo destas facilitado(framin:2013), como exemplo, temos o OsiriX, software open source para processamento de imagens do formato DICOM (Digital Imaging and Communications in Medicine) resultantes da resônancia magnética. O OsiriX permite a manipulação e extração das informações contidas nas imagens do formato DICOM a fundo, uma das príncipais características do OsiriX é sua capacidade de se adaptar as necessidades do usuário juntamente com a possibilidade de importar e exportar os resultados obtidos, características que objetos de aprendizado devem apresentar. É importante lembrar que, por ser uma aplicação open source (livre distribuição e acesso ao código fonte), o OsiriX reduz os custos educacionais, pois não necessita de licença paga e também nos livra de oficinas para processamento das imagens, aplicações open source representam uma grande maioria das aplicações que lidam com imagens medicinais(framin:2013).
-
+Nos ultimos anos, o interesse por visualização tridimensional de estruturas anatômicas esteve em constante crescimento e o desenvolvimento de ferramentas para estudo destas facilitado(framin:2013), como exemplo, temos o OsiriX, software open source para processamento de imagens do formato DICOM (Digital Imaging and Communications in Medicine) resultantes da resônancia magnética. O OsiriX permite a manipulação e extração das informações contidas nas imagens do formato DICOM a fundo, uma das príncipais características do OsiriX é sua capacidade de se adaptar as necessidades do usuário juntamente com a possibilidade de importar e exportar os resultados obtidos, características que objetos de aprendizado devem apresentar. É importante lembrar que, por ser uma aplicação open source (livre distribuição e acesso ao código fonte), o OsiriX reduz os custos educacionais, pois não necessita de licença paga e também nos livra de oficinas para processamento das imagens, aplicações open source representam uma grande maioria das aplicações que lidam com imagens medicinais(framin:2013). No entanto, processamento de imagens não é um tópico coberto no curso de radiologia, assim sendo, não é de interesse e de agrado da maioria dos alunos dos cursos de radiologia, ter conhecimento desta área. Por isso, recomenda-se que seja utilizado modelos base e que seja especificado os passos levados para obtenção das imagens resultantes em objetos de aprendizado, para que o aluno consiga seguir e refazer o processo caso necessário.
+%verificar integridade ultimo paragrafo%
 
 \chapter{Motivação e Idealização}%%Inserir subseção (nível 3)
 
@@ -225,7 +222,15 @@ A instituição UniFil está no seu segundo ano do curso tecnólogo de radiologi
 
 \chapter {Metodologia e Desenvolvimento}
 %%Conteúdo
-O desenvolvimento do nosso objeto de aprendizado, parte do príncipio de reusabilidade e reaproveitamento discutidos anteriormente, usaremos então como base o simulador de distribuição privada "CTScannerSimulator" do Institute for Advanced Clinic Imaging(IACI), que por sua vez, é de distribuição privada e tem o intuito de apenas simular as funções básicas de uma máquina física de Resônancia Magnética, do qual o acesso nos foi concecido pela Professora Juliana do curso de radiologia da UniFil. 
+O desenvolvimento do nosso objeto de aprendizado, parte do príncipio de reusabilidade e reaproveitamento discutidos anteriormente, usaremos então como base o simulador de distribuição privada "CTScannerSimulator" do Institute for Advanced Clinic Imaging(IACI), que por sua vez, é de distribuição privada e tem o intuito de apenas simular as funções básicas de uma máquina física de Resônancia Magnética, do qual o acesso nos foi concecido pela Professora Juliana do curso de radiologia da UniFil.
+
+Realizaremos uma pesquisa em campo nas dependências da UniFil, onde será levantado:
+\begin{itemize}
+\item Estrutura - Será analizado a estrutura do campus, proporção de alunos para máquinas, compatibilidade de horários, conexão com internet e disponibilidade de servidores.
+\item Acessibilidade - Em pesquisa com alunos do curso de radiologia, verificaremos a frequência e tempo de acesso à desktops, smartphones e web dos alunos.
+\item Ambiente - Tentaremos entender a fundo a metodologia atualmente utilizada para treinamento dos técnicos de radiologia, o ambiente de estudo, analisaremos como podemos introduzir o nosso simulador ao método de ensino, impactos e reestruturação.
+\item Feedback - Ouviremos dos alunos suas opiniões sobre o simulador, ganhos que o objeto de aprendizado pode trazer para o curso, pontos negativos, afetos, impacto no estudo e possíveis melhorias e mudanças.
+\end{itemize}
 
 \chapter {Conclusão e Resultados}
 %%Conteúdo
@@ -260,7 +265,7 @@ Figura \ref{img:lom} demonstra uma especificação de metadados para objetos de 
 {IEEE Learning Technology Standards Committee (LTSC) available at: IEEE 1484.12.1-2002, 15 July 2002, \textbf{Draft Standard for Learning Object Metadata.}}
 
 \bibitem{Sathiyamurthy:2012}
-{K. Sathiyamurthy, T. V. Geetha, and M. Senthilvelan. 2012. \textbf{An approach towards dynamic assembling of learning objects.} In Proceedings of the International Conference on Advances in Computing, Communications and Informatics (ICACCI '12), Sabu M. Thampi, El-Sayed El-Afry, and Javier Aguiar (Eds.). ACM, New York, NY, USA, 1193-1198. DOI: http://dx.doi.org/10.1145/2345396.2345587}
+{K. Sathiyamurthy, T. V. Geetha, and M. Senthilvelan. 2012. \textbf{An approach towards dynamic assembling of learning objects.} In Proceedings of the International Conference on Advances in Computing, Communications and Informatics (ICACCI '12), Sabu M. Thampi, El-Sayed El-Afry, and Javier Aguiar (Eds.). ACM, New York, NY, USA, 1193-1198.}
 
 \bibitem{McGreal:2004}
 {MCGREAL, R. \textbf{Learning objects: A practical definition} International Journal of Instructional Technology and Distance Learning (IJITDL).2004/9/4}
@@ -273,15 +278,17 @@ Desenvolvimento de Objetos de Aprendizagem Reutilizáveis e de Qualidade.} In: A
 {Downes, S. (2003). \textbf{Design and reusability of learning objects in an academic context: A new economy of education?} Journal of the United States Distance Learning Association, 17(1).}
 
 \bibitem{Degen:2001}
-{Degen, B. (2001). \textbf{Capitalizing on the learning object economy: The strategic benefits of standard learning objects.} Learning Objects Network, Inc. Retrieved June 5, 2009, from the World Wide Web:
-http://www.learningobjectsnetwork.com/resources/}
+{Degen, B. (2001). \textbf{Capitalizing on the learning object economy: The strategic benefits of standard learning objects.} Learning Objects Network, Inc.}
 
 \bibitem{Bannan:2002}
 {Bannan-Ritland, B., Dabbagh, N., Murphy, K. (2002). \textbf{Learning object systems as constructivist learning environments: Related assumptions, theories and applications.} In D.A. Wiley (Ed.), The instructional
 use of learning objects. Bloomington, IN.}
 
 \bibitem{Siegmund:2014}
-{Janet Siegmund, Christian Kästner, Sven Apel, Chris Parnin, Anja Bethmann, Thomas Leich, Gunter Saake, and André Brechmann. 2014. \textbf{Understanding understanding source code with functional magnetic resonance imaging.} In Proceedings of the 36th International Conference on Software Engineering (ICSE 2014). ACM, New York, NY, USA, 378-389. DOI: https://doi.org/10.1145/2568225.2568252}
+{Janet Siegmund, Christian Kästner, Sven Apel, Chris Parnin, Anja Bethmann, Thomas Leich, Gunter Saake, and André Brechmann. 2014. \textbf{Understanding understanding source code with functional magnetic resonance imaging.} In Proceedings of the 36th International Conference on Software Engineering (ICSE 2014). ACM, New York, NY, USA, 378-389.}
+
+\bibitem{Framin:2013}
+{Andrés Framiñán, Pablo Ruisoto, Diana García, and Juan A. Juanes. 2013. \textbf{Advanced neuroimage processing for the study of the neurovascular system.} In Proceedings of the First International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM '13), Francisco José García-Peñalvo (Ed.). ACM, New York, NY, USA, 37-41.}
 
 \end{thebibliography}
 
