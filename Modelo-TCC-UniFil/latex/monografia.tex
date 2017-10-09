@@ -122,9 +122,6 @@ Agradeço ao Professor Ricardo novamente, pela ajuda e auxílio durante todo o T
 \par
 \begin{resumo}
 	%%Escreva seu resumo na língua vernácula aqui%%
-%Este artigo discute o uso e desenvolvimento de objetos de aprendizado, propondo o desenvolvimento de simuladores para a área de Radiologia, dos quais seram usados para treinamento do uso e configuração de máquinas de MRI e CT por alunos do curso de Radiologia, Biomedicina e Física Médica.Tais simuladores são classificados como Objeto de Aprendizado, sendo fontes de conhecimento de fácil acesso e baixo custo tanto para instituições de ensino quanto para seus alunos.%
-
-%Divisão das alternativas de resumo%
 Este artigo discute o uso e desenvolvimento de Objetos de Aprendizado e propõem o desenvolvimento de simuladores que sigam os padrões de Objetos de Aprendizado para que sejam utilizados no treinamento de operadores de Ressonância Magnética ou Tomografia Computadorizada de maneira ágil e fácil sem a necessidade da obtenção de máquinas físicas por parte das instituições de ensino. Também descreve os benefícios e impactos que a aplicação de um Objeto de Aprendizado traz para o ambiente onde é aplicado, bem como a crescente deste tipo de ferramenta que é cada vez mais presente no aprendizado.
 \vspace{\onelineskip} \\
 	%%Adicione as palavras chaves após os dois pontos '':''%%
@@ -197,7 +194,13 @@ O termo Objeto de Aprendizado surgiu em 1994  num artigo escrito por Hodgins, no
 O desenvolvimento de objetos de aprendizado ainda é um tema recente e muito discutido, seus stakeholders  discutem e trabalham para que seja estabelecido uma definição funcional e um padrão de desenvolvimento dentre  as diversas variações existentes. O Instituto de Elétrica e Engenheiros Eletrônicos (IEEE)  define objetos de aprendizado como, ''qualquer entidade, digital ou não-digital que pode ser usado, re-usado ou referenciado durante aprendizado apoiado por tecnologia'' e explica que objetos de aprendizado permite e facilita o uso de conteúdo educacional online, mas essa definição tem inteção de abrangir todo conteúdo educacional não-digital, falhando em excluir materiais educacionais e qualquer outro artefato que tenha ligação ao aprendizado, mas que se distinguem de objetos de aprendizado, pois não vão de acordo os príncipios de LOM (Learning Object Metadata) que são documentos que especificam a síntaxe e semântica do objeto de aprendizado, bem como, não condizem com as análogias de objetos de aprendizado descritas por David Wiley, que explica, a análogia de ''Lego'' é incompleta para descrever a estrutura e natureza do objeto de aprendizado. As propriedades dessa definição dizem que qualquer peça de Lego pode ser combinada com outra peça de qualquer forma escolhida e que Legos são simples e divertidos que até mesmo crianças podem combiná-los (Wiley, 2000). Wiley acredita que um objeto de aprendizado com essas características é não mais eficiente que um Lego por si só. Então, Wiley apresenta-nos uma análogia mais completa e holística, o ''Átomo'', que são componentes que podem ser combinados com outros átomos de maior escala, mas nem todo átomo pode ser combinado com qualquer outro, átomos só podem ser combinados com estruturas ja prescritas e sua montagem requer um certo nível de conhecimento. Essa análogia preenche melhor a definição de objeto de aprendizado para fins pedagógicos sem descartar os príncipios de reaproveitamento e granularidade(Sathiyamurthy:2012).
 
 O Uso de objetos de aprendizado é evidentemente necessário na era da técnologia, o conteúdo digital pode efetivamente reduzir os custos da educação, facilitar o acesso do aprendiz ao conteúdo desejado e reduzir a granularidade dentre os milhares tópicos cobertos por objetos de aprendizado.
-Mas objetos de aprendizado por si só, não trazem resultados significativos, para isso, é necessário uma estratégia e discussão sobre como o objeto em questão pode melhorar e entregar educação de qualidade.
+Mas objetos de aprendizado por si só, não trazem resultados significativos, para isso, é necessário uma estratégia e discussão sobre como o objeto em questão pode melhorar e entregar educação de qualidade, os responsáveis por isso são seus stakeholders:
+
+\begin{itemize}
+\item Aprendizes - Os aprendizes são os principais usuarios de objetos de aprendizado, o envolvimento dos aprendizes é de extrema importância, a idéia é que eles possam emitir pedidos de informações sobre conteúdo, analisar o sistema de acordo com seu contexto e ambiente de uso e repassar essas informações para que o objeto de aprendizado seja desenvolvido adequadamente e servir diversos estilos de aprendizado.
+\item Autores e Designers - Autores são criadores de objetos de aprendizado para objetivos específicos(Ritzhaupt:2010). Instrutores em diversos domínios com conhecimento para desenvolvimento de objetos de aprendizado que podem ser atribuidos para objetivos e tópicos específicos. Junto à designers, são criados objetos de aprendizado de maior escala, como cursos, websites e livros(Longmire, 2001).
+\item Desenvolvedores - Os desenvolvedores de objetos de aprendizado são aqueles responsáveis pelos requisitos técnicos de um sistema de objeto de aprendizado através de projetar, desenvolver e manter a aplicação de software útil para sistemas de objeto de aprendizado (Polsani, 2003). 
+\end{itemize}
 %Impacto no ambiente%
 
 Stephen Downes, cientísta pesquisador especialista em pesquisa e design online, argumenta que os maiores benefícios oferecidos por objetos de aprendizado são economicos. Mas sua convicção é baseada em algumas premissas realistas, Downes supõem que existe milhares de universidades partilham do mesmos cursos, e que tais necessitam de uma discussão introdutória que podem variar de instituição para instituição, mas que por fim, tem o mesmo resultado(Downes:2003). Seguindo deste partido, Downes afirma que os sistemas de educação não precisam de milhares de discussões parecidas, mas apenas algumas dezenas que preencham os diferentes estilos de aprendizado.Com isso, diversas instituições de ensino poderiam compartilhar o uso desses objetos de aprendizado, ''Não faz sentido financeiro gastar milhões de dólares produzindo multiplas versões de objetos de aprendizado similares quando versões únicas do mesmos objetos poderiam ser divididas à um custo muito menor por instituição.'' (Downes, 2003). Downes implica que o compartilhamento de objetos de aprendizado facilitaria e aumentaria a qualidade de aprendizado e que nenhuma instituição que corre por conta poderia competir.
@@ -231,6 +234,8 @@ Realizaremos uma pesquisa em campo nas dependências da UniFil, onde será levan
 \item Ambiente - Tentaremos entender a fundo a metodologia atualmente utilizada para treinamento dos técnicos de radiologia, o ambiente de estudo, analisaremos como podemos introduzir o nosso simulador ao método de ensino, impactos e reestruturação.
 \item Feedback - Ouviremos dos alunos suas opiniões sobre o simulador, ganhos que o objeto de aprendizado pode trazer para o curso, pontos negativos, afetos, impacto no estudo e possíveis melhorias e mudanças.
 \end{itemize}
+
+%escrever métodos de programação etc...%
 
 \chapter {Conclusão e Resultados}
 %%Conteúdo
@@ -289,6 +294,12 @@ use of learning objects. Bloomington, IN.}
 
 \bibitem{Framin:2013}
 {Andrés Framiñán, Pablo Ruisoto, Diana García, and Juan A. Juanes. 2013. \textbf{Advanced neuroimage processing for the study of the neurovascular system.} In Proceedings of the First International Conference on Technological Ecosystem for Enhancing Multiculturality (TEEM '13), Francisco José García-Peñalvo (Ed.). ACM, New York, NY, USA, 37-41.}
+
+\bibitem{Polsani:2003} 
+{olsani, P. R. (2003). \textbf{Use and abuse of reusable learning objects.} Journal of Digital Information, 3(4).}
+
+\bibitem{Longmire:2001}
+{Longmire, W. (2001). \textbf{A primer on learning objects.} Learning Circuits. Dísponivel em: http://kennison.name/files/learning/learning-object-design.pdf. Acesso em: 09 out 2017.}
 
 \end{thebibliography}
 
