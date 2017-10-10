@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  10 OCT 2017 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  10 OCT 2017 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1927,34 +1927,34 @@ l.62
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 115.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 116.
  [5
 
 ] [6
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 148.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 149.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 148.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 149.
  [7
 
 ] (./monografia.toc) [8
 
 ]
 
-LaTeX Warning: Citation `Siegmund:2014' on page 9 undefined on input line 182.
+LaTeX Warning: Citation `Siegmund:2014' on page 9 undefined on input line 183.
 
 
-LaTeX Warning: Citation `Braga:2012' on page 9 undefined on input line 184.
+LaTeX Warning: Citation `Braga:2012' on page 9 undefined on input line 185.
 
 [9
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 190.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 191.
  [10]
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 200.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 201.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
@@ -1971,31 +1971,32 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 <images/arvore.png, id=116, 642.4pt x 361.35pt>
 File: images/arvore.png Graphic file (type png)
 <use images/arvore.png>
-Package pdftex.def Info: images/arvore.png  used on input line 246. on input li
-ne 246.
+Package pdftex.def Info: images/arvore.png  used on input line 247. on input li
+ne 247.
 Package pdftex.def Info: Requested size: 321.19922pt x 180.67456pt on input lin
-e 246.
-<lom.png, id=118, 481.8pt x 321.2pt>
-File: lom.png Graphic file (type png)
-<use lom.png>
-Package pdftex.def Info: lom.png  used on input line 254. on input line 254.
+e 247.
+<images/lom.png, id=118, 481.8pt x 321.2pt>
+File: images/lom.png Graphic file (type png)
+<use images/lom.png>
+Package pdftex.def Info: images/lom.png  used on input line 255. on input line 
+255.
 Package pdftex.def Info: Requested size: 481.79881pt x 321.19922pt on input lin
-e 254.
+e 255.
 
-Overfull \hbox (26.79881pt too wide) in paragraph at lines 254--255
+Overfull \hbox (26.79881pt too wide) in paragraph at lines 255--256
  [][] 
  []
 
 [17
 
- <./images/arvore.png (PNG copy)> <./lom.png>] [18] (./monografia.brf)
+ <./images/arvore.png (PNG copy)> <./images/lom.png>] [18] (./monografia.brf)
 \tf@brf=\write6
 \openout6 = `monografia.brf'.
 
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 266.
+(hyperref)                removing `\uppercase' on input line 267.
 
 bibitemlist
 [19
@@ -2005,11 +2006,11 @@ bibitemlist
 \tf@toc=\write7
 \openout7 = `monografia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 306.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 306.
  (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 306.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 306.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: C9D78B7011032AF11EB12919232E07E8;87.
 
@@ -2019,11 +2020,11 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 305.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 306.
  ) 
 Here is how much of TeX's memory you used:
  31707 strings out of 492990
- 556750 string characters out of 6132622
+ 556778 string characters out of 6132622
  735776 words of memory out of 5000000
  34627 multiletter control sequences out of 15000+600000
  34736 words of font info for 48 fonts, out of 8000000 for 9000
