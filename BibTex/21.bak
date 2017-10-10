@@ -1,6 +1,20 @@
 % Encoding: UTF-8
 
-@InProceedings{AlsovaKazanskaya2016,
+@Article{1237507,
+  author =   {C. B. Paschal},
+  title =    {The need for effective biomedical imaging education},
+  journal =  {IEEE Engineering in Medicine and Biology Magazine},
+  year =     {2003},
+  volume =   {22},
+  number =   {4},
+  pages =    {88-91},
+  month =    {July},
+  doi =      {10.1109/MEMB.2003.1237507},
+  issn =     {0739-5175},
+  keywords = {biomedical education;biomedical imaging;computer aided instruction;information resources;BME students;Web based resources;anchored inquiry;anytime/anywhere learning;challenge-based learning;educational interaction;educational resources;effective biomedical imaging education;hands-on learning exercises;high-quality BMI education programs;human learning;imaging knowledge logical organization;instruction;instructional sequence;interesting challenges;learning cycle;learning resource;lectures;legacy cycle;online tutorial;personnel;revenue model;simulators;teaching files;textbooks;tutorials;ultrasound;undergraduate engineers;Biomedical engineering;Biomedical imaging;Computed tomography;Costs;Educational programs;Magnetic resonance imaging;Physics education;Positron emission tomography;Radiology;Ultrasonic imaging}
+}
+
+@InProceedings{7806405,
   author =    {O. К. Alsova and O. V. Kazanskaya},
   title =     {Training simulators for support of inductive method in teaching},
   booktitle = {2016 13th International Scientific-Technical Conference on Actual Problems of Electronics Instrument Engineering (APEIE)},
@@ -12,7 +26,7 @@
   keywords =  {computer aided instruction;further education;mathematics computing;teaching;higher education system;inductive method;inductive teaching;mathematical disciplines;optimization methods;simulation modeling;simulator basic structure;training simulators;Cloud computing;Computational modeling;Computers;Optimization;Problem-solving;Training;Inductive teaching;requirements to the training simulator;structure of the training simulator;training simulator}
 }
 
-@Article{BakerBottsOwen2004,
+@Article{Baker2004,
   author =   {Baker, Judy and Botts, Nathan and Owen, Karen},
   title =    {Faculty technology training: learning objects},
   journal =  {Academic Exchange Quarterly. 8.1 (Spring 2004): p170.},
@@ -27,7 +41,7 @@
   url =      {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA116450607&asid=8fa908d57663058a0db6dd5791d21936}
 }
 
-@Article{BaruqueMelo2004,
+@Article{Baruque2004,
   author =   {Baruque, Lucia Blondet and Melo, Rubens Nascimento},
   title =    {Learning theory and instructional design using learning objects},
   journal =  {Journal of Educational Multimedia and Hypermedia},
@@ -41,7 +55,7 @@
   url =      {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA132304033&asid=779e5f268a3abe5e06c0b671d5102f23}
 }
 
-@InProceedings{Carney-MorrisMurphy2016,
+@InProceedings{Carney-Morris:2016:TLC:2974927.2974945,
   author =    {Carney-Morris, Miranda and Murphy, Trevor},
   title =     {Teaching, Learning, and Classroom Design},
   booktitle = {Proceedings of the 2016 ACM on SIGUCCS Annual Conference},
@@ -59,7 +73,7 @@
   url =       {http://doi.acm.org/10.1145/2974927.2974945}
 }
 
-@Article{CohenNycz2006,
+@Article{Cohen2006,
   author =  {Cohen, Eli B. and Nycz, Malgorzata},
   title =   {Learning objects and e-learning: an informing science perspective},
   journal = {Interdisciplinary Journal of Knowledge and Learning Objects},
@@ -71,7 +85,7 @@
   url =     {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA199195117&asid=274628d86b19a5f5fb2ffa070ccf2846}
 }
 
-@InProceedings{FleissnerBaniassad2009,
+@InProceedings{Fleissner:2009:HPS:1639950.1640069,
   author =    {Fleissner, Sebastian and Baniassad, Elisa},
   title =     {Harmony-oriented Programming and Software Evolution},
   booktitle = {Proceedings of the 24th ACM SIGPLAN Conference Companion on Object Oriented Programming Systems Languages and Applications},
@@ -89,7 +103,7 @@
   url =       {http://doi.acm.org/10.1145/1639950.1640069}
 }
 
-@InProceedings{FraminanRuisotoGarciaEtAl2013,
+@InProceedings{Framinan:2013:ANP:2536536.2536543,
   author =    {Frami\~{n}\'{a}n, Andr{\'e}s and Ruisoto, Pablo and Garc\'{\i}a, Diana and Juanes, Juan A.},
   title =     {Advanced Neuroimage Processing for the Study of the Neurovascular System},
   booktitle = {Proceedings of the First International Conference on Technological Ecosystem for Enhancing Multiculturality},
@@ -107,24 +121,7 @@
   url =       {http://doi.acm.org/10.1145/2536536.2536543}
 }
 
-@InProceedings{HeydenCarpendaleInkpenEtAl1998,
-  author =    {van der Heyden, J. E. and Carpendale, M. S. T. and Inkpen, K. and Atkins, M. S.},
-  title =     {Visual Presentation of Magnetic Resonance Images},
-  booktitle = {Proceedings of the Conference on Visualization '98},
-  year =      {1998},
-  series =    {VIS '98},
-  pages =     {423--426},
-  address =   {Los Alamitos, CA, USA},
-  publisher = {IEEE Computer Society Press},
-  acmid =     {288336},
-  isbn =      {1-58113-106-2},
-  keywords =  {MRI image presentation, detail and context, health care, human factors, medical images, user interfaces},
-  location =  {Research Triangle Park, North Carolina, USA},
-  numpages =  {4},
-  url =       {http://dl.acm.org/citation.cfm?id=288216.288336}
-}
-
-@Article{MasonPeglerWeller2005,
+@Article{Mason2005,
   author =   {Mason, Robin and Pegler, Chris and Weller, Martin},
   title =    {A learning object success story},
   journal =  {Journal of Asynchronous Learning Networks},
@@ -150,21 +147,7 @@
   url =     {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA199195113&asid=d82049005e85ec2901861948245ef1bc}
 }
 
-@Article{Paschal2003,
-  author =   {C. B. Paschal},
-  title =    {The need for effective biomedical imaging education},
-  journal =  {IEEE Engineering in Medicine and Biology Magazine},
-  year =     {2003},
-  volume =   {22},
-  number =   {4},
-  pages =    {88-91},
-  month =    {July},
-  doi =      {10.1109/MEMB.2003.1237507},
-  issn =     {0739-5175},
-  keywords = {biomedical education;biomedical imaging;computer aided instruction;information resources;BME students;Web based resources;anchored inquiry;anytime/anywhere learning;challenge-based learning;educational interaction;educational resources;effective biomedical imaging education;hands-on learning exercises;high-quality BMI education programs;human learning;imaging knowledge logical organization;instruction;instructional sequence;interesting challenges;learning cycle;learning resource;lectures;legacy cycle;online tutorial;personnel;revenue model;simulators;teaching files;textbooks;tutorials;ultrasound;undergraduate engineers;Biomedical engineering;Biomedical imaging;Computed tomography;Costs;Educational programs;Magnetic resonance imaging;Physics education;Positron emission tomography;Radiology;Ultrasonic imaging}
-}
-
-@InProceedings{PetrovaTodorova2004,
+@InProceedings{Petrova:2004:MDS:1050330.1050430,
   author =    {Petrova, Valentina and Todorova, Margarita},
   title =     {A Model for Describing and Structuring Learning Objects},
   booktitle = {Proceedings of the 5th International Conference on Computer Systems and Technologies},
@@ -182,7 +165,7 @@
   url =       {http://doi.acm.org/10.1145/1050330.1050430}
 }
 
-@InProceedings{PhophaliaMitraRajwade2012,
+@InProceedings{Phophalia:2012:NDF:2425333.2425390,
   author =    {Phophalia, Ashish and Mitra, Suman K. and Rajwade, Ajit},
   title =     {A New Denoising Filter for Brain MR Images},
   booktitle = {Proceedings of the Eighth Indian Conference on Computer Vision, Graphics and Image Processing},
@@ -201,7 +184,7 @@
   url =       {http://doi.acm.org/10.1145/2425333.2425390}
 }
 
-@Article{QueirosSilveiraSilvaCorreia-NetoEtAl2016,
+@Article{Queiros2016,
   author =   {Queiros, Leandro Marques and da Silveira, Denis Silva and da Silva Correia-Neto, Jorge and Vilar, Guilherme @Article{Queiros2016, author = {Queiros, Leandro Marques and da Silveira, Denis Silva and da Silva Correia-Neto, Jorge and Vilar, Guilherme}, title = {LODPRO: learning objects development process}, journal = {Journal of the Brazilian Computer Society}, year = {2016}, volume = {22}, number = {1}, pages = {3}, abstract = {Research concerning to the use of technology in education has received increasing attention from scholars in recent years. This attention has resulted in new educational materials demanding creative ways to plan, develop, distribute, and evaluate them.}, doi = {10.1186/s13173-016-0043-6}, issn = {1678-4804}, url = {http://dx.doi.org/10.1186/s13173-016-0043-6} }},
   title =    {LODPRO: learning objects development process},
   journal =  {Journal of the Brazilian Computer Society},
@@ -229,7 +212,7 @@
   url =      {http://go.galegroup.com/ps/i.do?p=AONE&sw=w&u=unifil&v=2.1&it=r&id=GALE%7CA247740285&asid=97c7642b51f2dfbcc2c9fd98b1fff078}
 }
 
-@InProceedings{SathiyamurthyGeethaSenthilvelan2012,
+@InProceedings{Sathiyamurthy:2012:ATD:2345396.2345587,
   author =    {Sathiyamurthy, K. and Geetha, T. V. and Senthilvelan, M.},
   title =     {An Approach Towards Dynamic Assembling of Learning Objects},
   booktitle = {Proceedings of the International Conference on Advances in Computing, Communications and Informatics},
@@ -247,7 +230,7 @@
   url =       {http://doi.acm.org/10.1145/2345396.2345587}
 }
 
-@InProceedings{SiegmundBrechmannApelEtAl2012,
+@InProceedings{Siegmund:2012:TMP:2393596.2393624,
   author =    {Siegmund, Janet and Brechmann, Andr{\'e} and Apel, Sven and K\"{a}stner, Christian and Liebig, J\"{o}rg and Leich, Thomas and Saake, Gunter},
   title =     {Toward Measuring Program Comprehension with Functional Magnetic Resonance Imaging},
   booktitle = {Proceedings of the ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering},
@@ -266,7 +249,7 @@
   url =       {http://doi.acm.org/10.1145/2393596.2393624}
 }
 
-@InProceedings{SiegmundKaestnerApelEtAl2014,
+@InProceedings{Siegmund:2014:UUS:2568225.2568252,
   author =    {Siegmund, Janet and K\"{a}stner, Christian and Apel, Sven and Parnin, Chris and Bethmann, Anja and Leich, Thomas and Saake, Gunter and Brechmann, Andr{\'e}},
   title =     {Understanding Understanding Source Code with Functional Magnetic Resonance Imaging},
   booktitle = {Proceedings of the 36th International Conference on Software Engineering},
@@ -284,7 +267,7 @@
   url =       {http://doi.acm.org/10.1145/2568225.2568252}
 }
 
-@InProceedings{SirkiaeSorva2012,
+@InProceedings{Sirkia:2012:EPM:2401796.2401799,
   author =    {Sirki\"{a}, Teemu and Sorva, Juha},
   title =     {Exploring Programming Misconceptions: An Analysis of Student Mistakes in Visual Program Simulation Exercises},
   booktitle = {Proceedings of the 12th Koli Calling International Conference on Computing Education Research},
@@ -302,7 +285,24 @@
   url =       {http://doi.acm.org/10.1145/2401796.2401799}
 }
 
-@Article{Vinha2005,
+@InProceedings{vanderHeyden:1998:VPM:288216.288336,
+  author =    {van der Heyden, J. E. and Carpendale, M. S. T. and Inkpen, K. and Atkins, M. S.},
+  title =     {Visual Presentation of Magnetic Resonance Images},
+  booktitle = {Proceedings of the Conference on Visualization '98},
+  year =      {1998},
+  series =    {VIS '98},
+  pages =     {423--426},
+  address =   {Los Alamitos, CA, USA},
+  publisher = {IEEE Computer Society Press},
+  acmid =     {288336},
+  isbn =      {1-58113-106-2},
+  keywords =  {MRI image presentation, detail and context, health care, human factors, medical images, user interfaces},
+  location =  {Research Triangle Park, North Carolina, USA},
+  numpages =  {4},
+  url =       {http://dl.acm.org/citation.cfm?id=288216.288336}
+}
+
+@Article{Vinha:2005:RLO:1151954.1067617,
   author =     {Vinha, Antonio},
   title =      {Reusable Learning Objects: Theory to Practice},
   journal =    {SIGCSE Bull.},
@@ -322,7 +322,7 @@
   url =        {http://doi.acm.org/10.1145/1151954.1067617}
 }
 
-@Article{YahyaYusoff2008,
+@Article{Yahya2008,
   author =   {Yahya, Yazrina and Yusoff, Mohammed},
   title =    {Towards a comprehensive learning object metadata: incorporation of context to stipulate meaningful learning and enhance learning object reusability},
   journal =  {Interdisciplinary Journal of E-Learning and Learning Objects},
