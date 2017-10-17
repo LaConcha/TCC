@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  11 OCT 2017 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  17 OCT 2017 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1968,52 +1968,52 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 
 ] [15
 
-] [16
+] [16] [17
 
 ]
-<images/arvore.png, id=116, 642.4pt x 361.35pt>
+<images/arvore.png, id=120, 642.4pt x 361.35pt>
 File: images/arvore.png Graphic file (type png)
 <use images/arvore.png>
-Package pdftex.def Info: images/arvore.png  used on input line 250. on input li
-ne 250.
+Package pdftex.def Info: images/arvore.png  used on input line 255. on input li
+ne 255.
 Package pdftex.def Info: Requested size: 321.19922pt x 180.67456pt on input lin
-e 250.
-<images/lom.png, id=118, 481.8pt x 321.2pt>
+e 255.
+<images/lom.png, id=122, 481.8pt x 321.2pt>
 File: images/lom.png Graphic file (type png)
 <use images/lom.png>
-Package pdftex.def Info: images/lom.png  used on input line 258. on input line 
-258.
+Package pdftex.def Info: images/lom.png  used on input line 263. on input line 
+263.
 Package pdftex.def Info: Requested size: 481.79881pt x 321.19922pt on input lin
-e 258.
+e 263.
 
-Overfull \hbox (26.79881pt too wide) in paragraph at lines 258--259
+Overfull \hbox (26.79881pt too wide) in paragraph at lines 263--264
  [][] 
  []
 
-[17
+[18
 
- <./images/arvore.png (PNG copy)> <./images/lom.png>] [18] (./monografia.brf)
+ <./images/arvore.png (PNG copy)> <./images/lom.png>] [19] (./monografia.brf)
 \tf@brf=\write6
 \openout6 = `monografia.brf'.
 
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 270.
+(hyperref)                removing `\uppercase' on input line 275.
 
 bibitemlist
-[19
+[20
 
 
-] [20]
+] [21]
 \tf@toc=\write7
 \openout7 = `monografia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: 98545FA2430C23C33BE89C060ECD7AB9;131.
 
@@ -2023,11 +2023,11 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 31710 strings out of 492990
- 556833 string characters out of 6132622
+ 31711 strings out of 492990
+ 556840 string characters out of 6132622
  735776 words of memory out of 5000000
  34630 multiletter control sequences out of 15000+600000
  34736 words of font info for 48 fonts, out of 8000000 for 9000
@@ -2040,10 +2040,10 @@ ve/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on monografia.pdf (21 pages, 214162 bytes).
+Output written on monografia.pdf (22 pages, 216036 bytes).
 PDF statistics:
- 248 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
