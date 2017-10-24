@@ -8,7 +8,7 @@
 
 \usepackage{abntex2cite}
 
-\titulo{Objeto de Aprendizado - Simulador MRI} %Atualizar conforme progredir%
+\titulo{Objeto de aprendizagem para treinamento de radiólogos} %Atualizar conforme progredir%
 \autor{Rodrigo de Souza Castoldi}
 \instituicao{Centro Universitário Filadélfia}
 \local{Londrina}
@@ -225,12 +225,24 @@ Um software é considerado livre quando este está de acordo com:
 \item A liberdade de estudar como o programa funciona, e adaptá-lo para as suas necessidades. O acesso ao código-fonte é um pré-requisito para esta liberdade (Costa:2005);
 \item A liberdade de redistribuir, inclusive vender, cópias de modo que você possa ajudar ao seu próximo (Costa:2005);
 \item A liberdade de modificar o programa, e liberar estas modificações, de modo que toda a comunidade se beneficie. O acesso ao código-fonte é um pré-requisito para esta liberdade (Costa:2005); 
+\end{itemize}
 
-Com isso, temos a liberdade manipular o software e integrá-lo com o objeto de aprendizado, abrindo caminho para o estudo de processamento de imagens. O processamento de imagens tem como funções facilitar a visualização da imagem ou adequá-la para análises quantitativas através de correções de defeitos ou realces das regiões de interesse nas imagens; e a extração e tratamento de dados quantitativos, feitos pelo próprio computador (Gomes, 2001).
+Com isso, temos a liberdade manipular o software e integrá-lo com o objeto de aprendizado, abrindo caminho para o estudo de processamento de imagens. O processamento de imagens tem como funções facilitar a visualização da imagem ou adequá-la para análises quantitativas através de correções de defeitos ou realces das regiões de interesse nas imagens; e a extração e tratamento de dados quantitativos, feitos pelo próprio computador (Gomes, 2001). Para realizar tais funções, são exercidas duas atividades técnicas:
+\begin{itemize}
+\item Processamento Digital de Imagens - preparativos sobre a imagem para sua análise, onde são manipulados os pixels que a formam através de filtros e operações matemáticas. Existem milhares de maneiras de manipulação, geralmente categorizados em um ou mais procedimentos de quatro tipos abrangentes de operações computacionais (Queiroz, 2003).
+\begin{itemize}
+\item Retificação e Restauração de Imagens: Processo para redução de distorções, ruídos e degradações dos dados da imagem, deixando-a mais próxima possível da real.
+\item Realçamento de Imagens: Processo aplicado aos dados da imagem com propósito de melhorar a visualização da mesma para que seja feita a interpretação visual.
+\item Classificação de Imagens: Classificação automática das imagens através de técnicas quantitativas, substituindo a análise visual.
+\item Combinação de Dados: Processo que busca combinar diferentes dados de uma área geografica específica da imagem.
+\end{itemize}
+
+\item Análise Digital de Imagens - 
+\end{itemize}
 
 %terminar sobre processamento de imagens e resonancia magnetica
+%Falar sobre SCRUM (queiros:2016) interligar com a parte onde falo sobre objetos de aprendizado
 
-%Falar sobre SCRUM (queiros:2016)
 
 \chapter{Motivação e Idealização}%%Inserir subseção (nível 3)
 
@@ -239,9 +251,9 @@ Este papel é um efeito-colateral gerado pelo projeto inicial da construção de
 
 A instituição UniFil está no seu segundo ano do curso tecnólogo de radiologia e ainda não conta com máquinario físico para treinamento dos alunos.
 
-\section {Metodologia e Desenvolvimento}
+\chapter {Metodologia e Desenvolvimento}
 %%Conteúdo
-O desenvolvimento do nosso objeto de aprendizado, parte do príncipio de reusabilidade e reaproveitamento discutidos anteriormente, usaremos então como base o simulador de distribuição privada "CTScannerSimulator" do Institute for Advanced Clinic Imaging(IACI), que por sua vez, é de distribuição privada e tem o intuito de apenas simular as funções básicas de uma máquina física de Resônancia Magnética, do qual o acesso nos foi concecido pela Professora Juliana do curso de radiologia da UniFil.
+O desenvolvimento do nosso objeto de aprendizado, parte do príncipio de reusabilidade e reaproveitamento discutidos anteriormente, usaremos então como base o simulador de distribuição privada `'CTScannerSimulator'' do Institute for Advanced Clinic Imaging(IACI), que por sua vez, é de distribuição privada e tem o intuito de apenas simular as funções básicas de uma máquina física de Resônancia Magnética, do qual o acesso nos foi concecido pela Professora Juliana do curso de radiologia da UniFil.
 
 Realizaremos uma pesquisa em campo nas dependências da UniFil, onde será levantado:
 \begin{itemize}
@@ -324,6 +336,9 @@ use of learning objects. Bloomington, IN.}
 
 \bibitem{Costa:2005}
 {DA COSTA, Reinaldo Candido. \textbf{CONHECENDO O SOFTWARE LIVRE.} In: Anais do Congresso Nacional Universidade, EAD e Software Livre. 2012.}
+
+\bibitem{Queiroz:2003}
+{QUEIROZ, Corina Jará de. \textbf{Análise de Transformações Geométricas para o Georreferenciamento de Imagens do Satélite CBERS-I}. Dissertação de Mestrado. UFRGS - CEPSRM, 2003.}
 
 \end{thebibliography}
 
