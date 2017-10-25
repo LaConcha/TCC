@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  24 OCT 2017 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  25 OCT 2017 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1927,29 +1927,26 @@ l.62
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 116.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 115.
  [5
 
 ] [6
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 149.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 148.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 149.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 148.
  [7
 
 ] (./monografia.toc) [8
 
 ]
 
-LaTeX Warning: Citation `Siegmund:2014' on page 9 undefined on input line 183.
+LaTeX Warning: Citation `Siegmund:2014' on page 9 undefined on input line 182.
 
 
 LaTeX Warning: Citation `McGreal:2003' on page 9 undefined on input line 188.
-
-
-LaTeX Warning: Citation `Braga:2012' on page 9 undefined on input line 188.
 
 [9
 
@@ -1957,65 +1954,65 @@ LaTeX Warning: Citation `Braga:2012' on page 9 undefined on input line 188.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 194.
  [10]
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 203.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 206.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 [11
 
-] [12] [13] [14] [15
+] [12] [13] [14] [15] [16
 
-] [16
+] [17
 
-] [17] [18
+] [18] [19
 
 ]
-<images/arvore.png, id=125, 642.4pt x 361.35pt>
+<images/arvore.png, id=129, 642.4pt x 361.35pt>
 File: images/arvore.png Graphic file (type png)
 <use images/arvore.png>
-Package pdftex.def Info: images/arvore.png  used on input line 280. on input li
-ne 280.
+Package pdftex.def Info: images/arvore.png  used on input line 286. on input li
+ne 286.
 Package pdftex.def Info: Requested size: 321.19922pt x 180.67456pt on input lin
-e 280.
-<images/lom.png, id=127, 481.8pt x 321.2pt>
+e 286.
+<images/lom.png, id=131, 481.8pt x 321.2pt>
 File: images/lom.png Graphic file (type png)
 <use images/lom.png>
-Package pdftex.def Info: images/lom.png  used on input line 288. on input line 
-288.
+Package pdftex.def Info: images/lom.png  used on input line 294. on input line 
+294.
 Package pdftex.def Info: Requested size: 481.79881pt x 321.19922pt on input lin
-e 288.
+e 294.
 
-Overfull \hbox (26.79881pt too wide) in paragraph at lines 288--289
+Overfull \hbox (26.79881pt too wide) in paragraph at lines 294--295
  [][] 
  []
 
-[19
+[20
 
- <./images/arvore.png (PNG copy)> <./images/lom.png>] [20] (./monografia.brf)
+ <./images/arvore.png (PNG copy)> <./images/lom.png>] [21] (./monografia.brf)
 \tf@brf=\write6
 \openout6 = `monografia.brf'.
 
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 300.
+(hyperref)                removing `\uppercase' on input line 306.
 
 bibitemlist
-[21
+[22
 
 
-] [22]
+] [23]
 \tf@toc=\write7
 \openout7 = `monografia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
  (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: 98545FA2430C23C33BE89C060ECD7AB9;131.
+(rerunfilecheck)             Checksum: EAE526E5B661E4AACCDE893722115A62;89.
 
 
 LaTeX Warning: There were undefined references.
@@ -2023,16 +2020,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 31724 strings out of 492990
- 557001 string characters out of 6132622
+ 31723 strings out of 492990
+ 556972 string characters out of 6132622
  735776 words of memory out of 5000000
- 34638 multiletter control sequences out of 15000+600000
+ 34636 multiletter control sequences out of 15000+600000
  34736 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,69p,2086b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,13n,69p,1924b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/cm-super/sfrb1728.pfb></usr/local/texli
@@ -2040,10 +2037,10 @@ ve/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on monografia.pdf (23 pages, 219668 bytes).
+Output written on monografia.pdf (24 pages, 220056 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 76 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
