@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  25 OCT 2017 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  26 OCT 2017 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1946,24 +1946,30 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 LaTeX Warning: Citation `Siegmund:2014' on page 9 undefined on input line 182.
 
 
-LaTeX Warning: Citation `McGreal:2003' on page 9 undefined on input line 188.
+LaTeX Warning: Citation `McGreal:2003' on page 9 undefined on input line 187.
 
 [9
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 194.
- [10]
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 193.
+ [10] [11
+
+]
 LaTeX Font Info:    Try loading font information for TS1+phv on input line 206.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
-[11
+[12] [13] [14] [15] [16
 
-] [12] [13] [14] [15] [16
+]
+Overfull \hbox (5.35187pt too wide) in paragraph at lines 262--263
+\T1/phv/m/n/12 reu-sa-bi-li-dade e re-a-pro-vei-ta-mento dis-cu-ti-dos an-te-ri
+-or-mente, usa-re-mos en-tão como base
+ []
 
-] [17
+[17
 
 ] [18] [19
 
@@ -1971,19 +1977,19 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 <images/arvore.png, id=129, 642.4pt x 361.35pt>
 File: images/arvore.png Graphic file (type png)
 <use images/arvore.png>
-Package pdftex.def Info: images/arvore.png  used on input line 286. on input li
-ne 286.
+Package pdftex.def Info: images/arvore.png  used on input line 285. on input li
+ne 285.
 Package pdftex.def Info: Requested size: 321.19922pt x 180.67456pt on input lin
-e 286.
+e 285.
 <images/lom.png, id=131, 481.8pt x 321.2pt>
 File: images/lom.png Graphic file (type png)
 <use images/lom.png>
-Package pdftex.def Info: images/lom.png  used on input line 294. on input line 
-294.
+Package pdftex.def Info: images/lom.png  used on input line 293. on input line 
+293.
 Package pdftex.def Info: Requested size: 481.79881pt x 321.19922pt on input lin
-e 294.
+e 293.
 
-Overfull \hbox (26.79881pt too wide) in paragraph at lines 294--295
+Overfull \hbox (26.79881pt too wide) in paragraph at lines 293--294
  [][] 
  []
 
@@ -1996,7 +2002,7 @@ Overfull \hbox (26.79881pt too wide) in paragraph at lines 294--295
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 306.
+(hyperref)                removing `\uppercase' on input line 305.
 
 bibitemlist
 [22
@@ -2006,11 +2012,11 @@ bibitemlist
 \tf@toc=\write7
 \openout7 = `monografia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 362.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 362.
  (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 362.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 362.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: EAE526E5B661E4AACCDE893722115A62;89.
 
@@ -2020,16 +2026,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 362.
  ) 
 Here is how much of TeX's memory you used:
- 31723 strings out of 492990
- 556972 string characters out of 6132622
+ 31749 strings out of 492990
+ 557348 string characters out of 6132622
  735776 words of memory out of 5000000
- 34636 multiletter control sequences out of 15000+600000
+ 34654 multiletter control sequences out of 15000+600000
  34736 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,69p,1924b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,12n,69p,1924b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/cm-super/sfrb1728.pfb></usr/local/texli
@@ -2037,10 +2043,10 @@ ve/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on monografia.pdf (24 pages, 220056 bytes).
+Output written on monografia.pdf (24 pages, 221533 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
