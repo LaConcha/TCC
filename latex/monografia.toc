@@ -16,4 +16,4 @@
 \contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Lista de Figuras}}{20}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{22}{section*.11}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{23}{section*.11}
