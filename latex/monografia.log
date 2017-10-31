@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  30 OCT 2017 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  30 OCT 2017 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1971,39 +1971,39 @@ Overfull \hbox (5.35187pt too wide) in paragraph at lines 275--276
 <images/arvore.png, id=131, 642.4pt x 361.35pt>
 File: images/arvore.png Graphic file (type png)
 <use images/arvore.png>
-Package pdftex.def Info: images/arvore.png  used on input line 298. on input li
-ne 298.
+Package pdftex.def Info: images/arvore.png  used on input line 297. on input li
+ne 297.
 Package pdftex.def Info: Requested size: 321.19922pt x 180.67456pt on input lin
-e 298.
+e 297.
 <images/lom.png, id=133, 481.8pt x 321.2pt>
 File: images/lom.png Graphic file (type png)
 <use images/lom.png>
-Package pdftex.def Info: images/lom.png  used on input line 306. on input line 
-306.
+Package pdftex.def Info: images/lom.png  used on input line 305. on input line 
+305.
 Package pdftex.def Info: Requested size: 481.79881pt x 321.19922pt on input lin
-e 306.
+e 305.
 
-Overfull \hbox (26.79881pt too wide) in paragraph at lines 306--307
+Overfull \hbox (26.79881pt too wide) in paragraph at lines 305--306
  [][] 
  []
 
 <images/LODPRO.png, id=136, 1956.30875pt x 1241.63875pt>
 File: images/LODPRO.png Graphic file (type png)
 <use images/LODPRO.png>
-Package pdftex.def Info: images/LODPRO.png  used on input line 314. on input li
-ne 314.
+Package pdftex.def Info: images/LODPRO.png  used on input line 313. on input li
+ne 313.
 Package pdftex.def Info: Requested size: 391.25482pt x 248.32335pt on input lin
-e 314.
+e 313.
 [20
 
  <./images/arvore.png (PNG copy)> <./images/lom.png>]
 <images/Schema.png, id=146, 665.48625pt x 730.73pt>
 File: images/Schema.png Graphic file (type png)
 <use images/Schema.png>
-Package pdftex.def Info: images/Schema.png  used on input line 322. on input li
-ne 322.
+Package pdftex.def Info: images/Schema.png  used on input line 321. on input li
+ne 321.
 Package pdftex.def Info: Requested size: 332.74231pt x 365.3641pt on input line
- 322.
+ 321.
  [21 <./images/LODPRO.png>] [22 <./images/Schema.png>] (./monografia.brf)
 \tf@brf=\write6
 \openout6 = `monografia.brf'.
@@ -2011,7 +2011,7 @@ Package pdftex.def Info: Requested size: 332.74231pt x 365.3641pt on input line
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 333.
+(hyperref)                removing `\uppercase' on input line 332.
 
 bibitemlist
 [23
@@ -2021,18 +2021,18 @@ bibitemlist
 \tf@toc=\write7
 \openout7 = `monografia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 391.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
  (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 392.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 392.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 392.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 391.
  ) 
 Here is how much of TeX's memory you used:
  31766 strings out of 492990
@@ -2049,7 +2049,7 @@ ve/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on monografia.pdf (25 pages, 1271648 bytes).
+Output written on monografia.pdf (25 pages, 1271856 bytes).
 PDF statistics:
  289 PDF objects out of 1000 (max. 8388607)
  246 compressed objects within 3 object streams
