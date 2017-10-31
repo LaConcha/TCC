@@ -149,27 +149,65 @@ This paper discuss the use and development of Learning Objects and suggests the 
 \end{otherlanguage*}
 \end{resumo}
 
-%\cleardoublepage
-%
-%\begin{large}
-%\begin{center}
-%    LISTA DE ABREVIAÇÕES 
-%    \bigskip
-%    \bigskip
-%\end{center}
-%\end{large}
-%
-%\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}}}
-%\newenvironment{abbreviations}{\begin{list}{}{\renewcommand{\makelabel}{\abbrlabel}}}{\end{list}}	
-%
-%\begin{abbreviations}
-%\item[OA] Objeto de Aprendizagem
-%\item[LOM] Learning Object Metadata
-%\item[LOR] Learning Object Repository
-%\end{abbreviations}
+\cleardoublepage
 
-%\par
-%\vspace{11cm}
+\begin{large}
+\begin{center}
+    LISTA DE ABREVIAÇÕES 
+    \bigskip
+    \bigskip
+\end{center}
+\end{large}
+
+\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}}}
+\newenvironment{abbreviations}{\begin{list}{}{\renewcommand{\makelabel}{\abbrlabel}}}{\end{list}}	
+
+\begin{abbreviations}
+\item[OA] Objeto de Aprendizagem
+\item[LOM] Learning Object Metadata
+\item[LOR] Learning Object Repository
+\item[MRI] Magnetic Resonance Imaging
+\item[IEEE] Instituto de Engenheiros Eletricistas e Eletrônicos
+\item[DICOM] Digital Imaging and Communications in Medicine
+\item[NPI] Núcleo de Pratica em Informática.
+\end{abbreviations}
+\cleardoublepage
+
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.5]{images/arvore.png}
+	\caption{Ilustra como todo meio pode ter envolvimento e resultar em um OA.}
+	\label{img:arvore}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=1.0]{images/lom.png}
+	\caption{Exemplo de especificação de metadados para objetos de aprendizado.}
+	\label{img:lom}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.2]{images/LODPRO.png}
+	\caption{Processo de desenvolvimento de OA proposto em Queiros (2016).}
+	\label{img:lodpro}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.5]{images/Schema.png}
+	\caption{Exemplo de Schema usado durante o levantamento de dados e requisitos no desenvolvimento de um OA}
+	\label{img:schema}
+\end{figure}
+
+\cleardoublepage
+
+\par
+\vspace{11cm}
 
 \tableofcontents*
 
@@ -182,40 +220,6 @@ This paper discuss the use and development of Learning Objects and suggests the 
   %intentação e espaçamento entre parágrafos%
   \setlength{\absparindent}{0pt}
   \setlength{\absparsep}{18pt}
-
-\pdfbookmark[0]{\listfigurename}{lof}
-\listoffigures*
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale=0.5]{images/arvore.png}
-	\caption{Conceito Objeto de Aprendizado}
-	\label{img:arvore}
-\end{figure}
-Figura \ref{img:arvore} ilustra como todo meio pode ter envolvimento e resultar em um OA.
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale=1.0]{images/lom.png}
-	\caption{Metadados de objetos de aprendizado}
-	\label{img:lom}
-\end{figure}
-Figura \ref{img:lom} demonstra uma especificação de metadados para objetos de aprendizado.
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale=0.2]{images/LODPRO.png}
-	\caption{Processo de desenvolvimento de Objetos de Aprendizagem}
-	\label{img:lodpro}
-\end{figure}
-Figura \ref{img:lodpro} apresenta o processo de desenvolvimento de OA proposto em (Queiros:2016).
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale=0.5]{images/Schema.png}
-	\caption{Exemplo de Schema usado durante o levantamento de dados e requisitos no desenvolvimento de um OA}
-	\label{img:schema}
-\end{figure}
 
 \cleardoublepage
 
@@ -315,45 +319,12 @@ O desenvolvimento do nosso objeto de aprendizagem, parte do princípio de reusab
 %escrever métodos de programação etc...%
 Com base em nossa pesquisa realizada em campo, verificamos que a instituição retratada neste trabalho possui infraestrutura para que os alunos de radiologia tenham acesso ao OA quando requisitado, porém também constatamos que parte dos alunos estão sempre se deslocando, como por exemplo, alunos que viajam horas de suas casas até o local de ensino, e que os mesmos poderiam utilizar esse tempo para estudos através de dispositivos portáteis (notebook, celular etc...), que nos trás de volta à questão de acessibilidade, um estudante que pretende fazer uso de seu celular para estudar pode não ter uma experiência boa ao tentar utilizar uma aplicação de software, enquanto um aluno que pretende utilizar um notebook ou tablet pode não ter acesso a internet.
 
-Concluímos então, que como solução para as questões de tempo e acessibilidade, o simulador proposto deverá ser flexível, tendo versões web e desktop capazes de adaptarem-se a diferentes situações e ambientes encontradas no dia-a-dia dos estudantes. Assim sendo, utilizaremos linguagens de programação Java e HTML para suas respectivas plataformas e a metodologia ágil de desenvolvimento SCRUM para realização do que for decidido em brainstorms mensais.
-
+Concluímos então, que como solução para as questões de tempo e acessibilidade, o simulador proposto deverá ser flexível, tendo versões web e desktop capazes de adaptarem-se a diferentes situações e ambientes encontradas no dia-a-dia dos estudantes. Assim sendo, utilizaremos linguagens de programação Java e HTML para suas respectivas plataformas e a metodologia ágil de desenvolvimento SCRUM para realização do que for decidido em brainstorms mensais, as atividades serão divididas em sprints posteriormente avaliados, caso necessário melhorias ou implementações, o processo de desenvolvimento voltará para um fase passada.
 
 \chapter {Conclusão e Resultados}
 %%Conteúdo
-
-\chapter{Lista de Figuras}
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale=0.5]{images/arvore.png}
-	\caption{Conceito Objeto de Aprendizado}
-	\label{img:arvore}
-\end{figure}
-Figura \ref{img:arvore} ilustra como todo meio pode ter envolvimento e resultar em um OA.
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale=1.0]{images/lom.png}
-	\caption{Metadados de objetos de aprendizado}
-	\label{img:lom}
-\end{figure}
-Figura \ref{img:lom} demonstra uma especificação de metadados para objetos de aprendizado.
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale=0.2]{images/LODPRO.png}
-	\caption{Processo de desenvolvimento de Objetos de Aprendizagem}
-	\label{img:lodpro}
-\end{figure}
-Figura \ref{img:lodpro} apresenta o processo de desenvolvimento de OA proposto em (Queiros:2016).
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale=0.5]{images/Schema.png}
-	\caption{Exemplo de Schema usado durante o levantamento de dados e requisitos no desenvolvimento de um OA}
-	\label{img:schema}
-\end{figure}
-
+Atingimos o objetivo esperado do simulador proposto neste trabalho, do qual, auxiliará duas áreas de conhecimento necessarias no treinamento de técnicos de radiologia, sendo elas, processamento de imagens e ressonância magnética, os alunos terão maior facilidade e desempenho no acesso ao treinamento, pois poderão acessá-lo de qualquer lugar e terão controle sobre as atividades e testes exercidos dentro do sistema. Também suprirá a necessidade de máquinas físicas na instituição, gerando grande economia para a mesma.
+\par Seguindo a metodolodogia escolhida, proposta por Queiros (2016), o desenvolvimento do OA com um plano bem executado, evitará falhas e percas desnecessárias.
 \cleardoublepage
 
 \postextual
