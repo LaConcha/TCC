@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  31 OCT 2017 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.9)  1 NOV 2017 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1946,36 +1946,36 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 <images/arvore.png, id=72, 642.4pt x 361.35pt>
 File: images/arvore.png Graphic file (type png)
 <use images/arvore.png>
-Package pdftex.def Info: images/arvore.png  used on input line 181. on input li
-ne 181.
+Package pdftex.def Info: images/arvore.png  used on input line 182. on input li
+ne 182.
 Package pdftex.def Info: Requested size: 321.19922pt x 180.67456pt on input lin
-e 181.
+e 182.
 <images/lom.png, id=73, 481.8pt x 321.2pt>
 File: images/lom.png Graphic file (type png)
 <use images/lom.png>
-Package pdftex.def Info: images/lom.png  used on input line 188. on input line 
-188.
+Package pdftex.def Info: images/lom.png  used on input line 189. on input line 
+189.
 Package pdftex.def Info: Requested size: 481.79881pt x 321.19922pt on input lin
-e 188.
+e 189.
 
-Overfull \hbox (26.79881pt too wide) in paragraph at lines 188--189
+Overfull \hbox (26.79881pt too wide) in paragraph at lines 189--190
  [][] 
  []
 
 <images/LODPRO.png, id=75, 1956.30875pt x 1241.63875pt>
 File: images/LODPRO.png Graphic file (type png)
 <use images/LODPRO.png>
-Package pdftex.def Info: images/LODPRO.png  used on input line 195. on input li
-ne 195.
+Package pdftex.def Info: images/LODPRO.png  used on input line 196. on input li
+ne 196.
 Package pdftex.def Info: Requested size: 391.25482pt x 248.32335pt on input lin
-e 195.
+e 196.
 <images/Schema.png, id=76, 665.48625pt x 730.73pt>
 File: images/Schema.png Graphic file (type png)
 <use images/Schema.png>
-Package pdftex.def Info: images/Schema.png  used on input line 202. on input li
-ne 202.
+Package pdftex.def Info: images/Schema.png  used on input line 203. on input li
+ne 203.
 Package pdftex.def Info: Requested size: 332.74231pt x 365.3641pt on input line
- 202.
+ 203.
 [9
 
  <./images/arvore.png (PNG copy)>] [10 <./images/lom.png> <./images/LODPRO.png>
@@ -1986,11 +1986,11 @@ Package pdftex.def Info: Requested size: 332.74231pt x 365.3641pt on input line
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 244.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 245.
  [14] [15
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 258.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 260.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1phv.fd
@@ -1998,13 +1998,7 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 ) [16] [17]
 [18] [19] [20
 
-]
-Overfull \hbox (5.35187pt too wide) in paragraph at lines 310--311
-\T1/phv/m/n/12 reu-sa-bi-li-dade e re-a-pro-vei-ta-mento dis-cu-ti-dos an-te-ri
--or-mente, usa-re-mos en-tão como base
- []
-
-[21
+] [21
 
 ] [22] [23
 
@@ -2015,7 +2009,7 @@ Overfull \hbox (5.35187pt too wide) in paragraph at lines 310--311
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 333.
+(hyperref)                removing `\uppercase' on input line 337.
 
 bibitemlist
 [24
@@ -2028,18 +2022,18 @@ bibitemlist
 \tf@toc=\write8
 \openout8 = `monografia.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
  (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 392.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 392.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 392.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
  ) 
 Here is how much of TeX's memory you used:
  31775 strings out of 492990
@@ -2048,7 +2042,7 @@ Here is how much of TeX's memory you used:
  34668 multiletter control sequences out of 15000+600000
  35890 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,69p,1924b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,13n,69p,1924b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/cm-super/sfrb1728.pfb></usr/local/texli
@@ -2056,7 +2050,7 @@ ve/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on monografia.pdf (26 pages, 1271740 bytes).
+Output written on monografia.pdf (26 pages, 1273315 bytes).
 PDF statistics:
  294 PDF objects out of 1000 (max. 8388607)
  250 compressed objects within 3 object streams
